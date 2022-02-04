@@ -22,6 +22,13 @@ object Lists:
    * @param xs A list of natural numbers
    * @return The sum of all elements in `xs`
    */
+  def sum(xs: List[Int]): Int =
+  xs match {
+    case Nil => 0
+    case head :: tail => head + sum(tail)
+  }
+
+  /** As an alternative sum function
   def sum(xs: List[Int]): Int = xs.sum
 
 
@@ -42,6 +49,7 @@ object Lists:
     val f = (x:Int, y:Int) => x max y
     if (xs.isEmpty) throw new NoSuchElementException("empty list")
     xs.reduceLeft(f)
-
-
   }
+
+
+
