@@ -1,0 +1,19 @@
+[debug] > Exec(~run, None, None)
+[info] sbt server started at local:sbt-server-97a04bbac42dbbf3ceea
+[debug] Writing bsp connection file
+[info] started sbt server
+[debug] > Exec(__runWatch console0, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(__preWatch console0, None, None)
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\Users\sandu\Desktop\Github\Learn-Scala\producer\target\scala-2.13\classes ...
+[warn] 1 deprecation (since 2.13.3); re-run with -deprecation for details
+[warn] one warning found
+[info] done compiling
+[success] Total time: 15 s, completed 07.05.2022 17:59:56
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(__postWatch console0, None, None)
+[debug] > Exec(__waitWatch console0, None, None)

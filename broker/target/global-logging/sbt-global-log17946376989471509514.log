@@ -1,0 +1,84 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (Eclipse Adoptium Java 11.0.14)
+[debug]       Load.loadUnit: plugins took 330.4334ms
+[debug]       Load.loadUnit: defsScala took 0.7346ms
+[debug] [Loading] Scanning directory C:\Users\sandu\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\sandu\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 58.3145 ms
+[debug]           Load.resolveProject(global-plugins) took 158.2077ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\sandu\.sbt\1.0\plugins, plugins: List(<none>))) took 314.9402ms
+[debug] [Loading] Done in C:\Users\sandu\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 467.3916ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.7823ms
+[debug]     Load.loadUnit(file:/C:/Users/sandu/.sbt/1.0/plugins/, ...) took 827.8873ms
+[debug]   Load.apply: load took 1344.2853ms
+[debug]   Load.apply: resolveProjects took 17.9032ms
+[debug]   Load.apply: finalTransforms took 183.1479ms
+[debug]   Load.apply: config.delegates took 22.2112ms
+[debug]   Load.apply: Def.make(settings)... took 1098.7606ms
+[debug]   Load.apply: structureIndex took 245.9575ms
+[debug]   Load.apply: mkStreams took 3.6499ms
+[info] loading global plugins from C:\Users\sandu\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 8908.5652ms
+[debug]           Load.loadUnit: plugins took 71.0742ms
+[debug]           Load.loadUnit: defsScala took 0.0109ms
+[debug] [Loading] Scanning directory D:\Users\sandu\Desktop\Github\Learn-Scala\broker\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\Users\sandu\Desktop\Github\Learn-Scala\broker\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.2726 ms
+[debug]               Load.resolveProject(broker-build) took 2.2456ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id broker-build, base: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\project, plugins: List(<none>))) took 8.0688ms
+[debug] [Loading] Done in D:\Users\sandu\Desktop\Github\Learn-Scala\broker\project, returning: (broker-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 11.9058ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.0242ms
+[debug]         Load.loadUnit(file:/D:/Users/sandu/Desktop/Github/Learn-Scala/broker/project/, ...) took 84.9052ms
+[debug]       Load.apply: load took 89.8505ms
+[debug]       Load.apply: resolveProjects took 0.2883ms
+[debug]       Load.apply: finalTransforms took 27.4763ms
+[debug]       Load.apply: config.delegates took 0.7784ms
+[debug]       Load.apply: Def.make(settings)... took 142.4271ms
+[debug]       Load.apply: structureIndex took 56.0193ms
+[debug]       Load.apply: mkStreams took 0.005ms
+[info] loading project definition from D:\Users\sandu\Desktop\Github\Learn-Scala\broker\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 4017.6848ms
+[debug]     Load.loadUnit: defsScala took 0.0094ms
+[debug] [Loading] Scanning directory D:\Users\sandu\Desktop\Github\Learn-Scala\broker
+[debug]       Load.loadUnit: mkEval took 16.3954ms

@@ -1,0 +1,6 @@
+[debug] Acquiring lock on file D:\Users\sandu\Desktop\Github\Learn-Scala\producer\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock ...
+[warn] 1 deprecation (since 2.13.0)
+[warn] 1 deprecation (since 2.13.3)
+[warn] 2 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[debug] Releasing lock on file D:\Users\sandu\Desktop\Github\Learn-Scala\producer\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock.
