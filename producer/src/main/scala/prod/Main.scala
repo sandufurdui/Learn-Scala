@@ -5,7 +5,7 @@ import java.net.InetSocketAddress
 
 import akka.actor.{ActorRef, ActorSystem, Props}
 import akka.util.ByteString
-import prod.TcpServer
+import prod.TCPServer
 
 object Main {
   def main(args: Array[String]): Unit = {
@@ -13,8 +13,8 @@ object Main {
     val port = 9900
     println(s"Server started! listening to ${host}:${port}")
 
-    val serverProps = TcpServer.props(new InetSocketAddress(host, port))
-    val actorSystem: ActorSystem = ActorSystem.create("MyActorSystem")
+    val serverProps = TCPServer.props(new InetSocketAddress(host, port))
+    val actorSystem: ActorSystem = ActorSystem.create("ProducersActorSystem")
     val serverActor: ActorRef = actorSystem.actorOf(serverProps)
     serverActor ! ByteString("Starting server...")
   }

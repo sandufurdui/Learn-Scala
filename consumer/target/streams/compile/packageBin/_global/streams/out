@@ -1,0 +1,17 @@
+[debug] Packaging D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\target\scala-2.13\consumer_2.13-0.1.0-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	cons
+[debug] 	  D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\target\scala-2.13\classes\cons
+[debug] 	cons\Main$.class
+[debug] 	  D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\target\scala-2.13\classes\cons\Main$.class
+[debug] 	cons\Main.class
+[debug] 	  D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\target\scala-2.13\classes\cons\Main.class
+[debug] 	cons\TcpClient$$anonfun$receive$1$$anonfun$applyOrElse$1.class
+[debug] 	  D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\target\scala-2.13\classes\cons\TcpClient$$anonfun$receive$1$$anonfun$applyOrElse$1.class
+[debug] 	cons\TcpClient$$anonfun$receive$1.class
+[debug] 	  D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\target\scala-2.13\classes\cons\TcpClient$$anonfun$receive$1.class
+[debug] 	cons\TcpClient$.class
+[debug] 	  D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\target\scala-2.13\classes\cons\TcpClient$.class
+[debug] 	cons\TcpClient.class
+[debug] 	  D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\target\scala-2.13\classes\cons\TcpClient.class
+[debug] Done packaging.
