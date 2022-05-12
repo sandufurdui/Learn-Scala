@@ -1,15 +1,15 @@
 package cons
 
 import java.net.InetSocketAddress
-
 import akka.actor.{ActorRef, ActorSystem, Props}
 import akka.util.ByteString
 import cons.TcpClient
+import ujson.IndexedValue.True
 
 object Main {
   def main(args: Array[String]): Unit = {
     val host = "localhost"
-    val port = 9900
+    val port = 5600
     println(s"Started client! connecting to ${host}:${port}")
 
     val clientProps = Props(classOf[TcpClient], new InetSocketAddress(host, port), null)
@@ -18,6 +18,12 @@ object Main {
     val clientActor: ActorRef = actorSystem.actorOf(clientProps)
 
     Thread.sleep(2000)
-    clientActor ! ByteString("test message from client")
+    while (true){
+      val input = scala.io.StdIn.readLine("command> ")
+      if (input != null){
+        clientActor ! ByteString(input)
+      }
+    }
+
   }
 }

@@ -10,7 +10,7 @@ import prod.TCPServer
 object Main {
   def main(args: Array[String]): Unit = {
     val host = "localhost"
-    val port = 9900
+    val port = 5600
     println(s"Server started! listening to ${host}:${port}")
 
     val serverProps = TCPServer.props(new InetSocketAddress(host, port))
