@@ -1,64 +1,20 @@
 package broker
 
-import akka.actor.typed.scaladsl.Behaviors
-import akka.actor.typed.scaladsl.LoggerOps
-import akka.actor.typed.{ ActorRef, ActorSystem, Behavior }
-//import com.typesafe.scalalogging.slf4j.LazyLogging
+import java.net.InetSocketAddress
 
+import akka.actor.{ActorRef, ActorSystem, Props}
+import akka.util.ByteString
+import broker.TCPServer
 
-object HelloWorld {
-  final case class Greet(whom: String, replyTo: ActorRef[Greeted])
-  final case class Greeted(whom: String, from: ActorRef[Greet])
-
-  def apply(): Behavior[Greet] = Behaviors.receive { (context, message) =>
-    println(s"Hello ${message.whom}!")
-    message.replyTo ! Greeted(message.whom, context.self)
-    Behaviors.same
-  }
-}
-
-object HelloWorldBot {
-
-  def apply(max: Int): Behavior[HelloWorld.Greeted] = {
-    bot(0, max)
-  }
-
-  private def bot(greetingCounter: Int, max: Int): Behavior[HelloWorld.Greeted] =
-    Behaviors.receive { (context, message) =>
-      val n = greetingCounter + 1
-      println(s"Greeting $n for ${message.whom}")
-      if (n == max) {
-        Behaviors.stopped
-      } else {
-        message.from ! HelloWorld.Greet(message.whom, context.self)
-        bot(n, max)
-      }
-    }
-}
-
-object HelloWorldMain {
-
-  final case class SayHello(name: String)
-
-  def apply(): Behavior[SayHello] =
-    Behaviors.setup { context =>
-      val greeter = context.spawn(HelloWorld(), "greeter")
-
-      Behaviors.receiveMessage { message =>
-        val replyTo = context.spawn(HelloWorldBot(max = 3), message.name)
-        greeter ! HelloWorld.Greet(message.name, replyTo)
-        Behaviors.same
-      }
-    }
-
+object Main {
   def main(args: Array[String]): Unit = {
-    val system: ActorSystem[HelloWorldMain.SayHello] =
-      ActorSystem(HelloWorldMain(), "hello")
+    val host = "localhost"
+    val port = 5600
+    println(s"Server started! listening to ${host}:${port}")
 
-    system ! HelloWorldMain.SayHello("World")
-    system ! HelloWorldMain.SayHello("Akka")
+    val serverProps = TCPServer.props(new InetSocketAddress(host, port))
+    val actorSystem: ActorSystem = ActorSystem.create("ProducersActorSystem")
+    val serverActor: ActorRef = actorSystem.actorOf(serverProps)
+    serverActor ! ByteString("Starting server...")
   }
 }
-
-// This is run by ScalaFiddle
-//HelloWorldMain.main(Array.empty)
