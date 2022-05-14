@@ -1,12 +1,11 @@
 **Message broker**
 
-> The main purpose of a message broker is to separate messages from a
-> data stream by topics
+The main purpose of a message broker is to separate messages from a
+data stream by topics
 
 and send it to the clients that are subscribed to those topics.
 
-![](media/media/image1.png){width="6.370833333333334in"
-height="4.540276684164479in"}
+![](media/media/image1.png)
 
 Figure 1. Posts flow from publisher to subscriber
 
@@ -15,21 +14,19 @@ publisher posts a stream of data which is separated in the message
 broker (MOM) by topic and is stored in queue (each topic- a separate
 queue).
 
-![](media/media/image2.png){width="6.480555555555555in"
-height="2.7138877952755904in"}
+![](media/media/image2.png)
 
 Figure 2. Message broker supervision tree
 
-> The supervision tree represents which actor creates/supervises other
-> actors, for example, client supervisor has a role to create an actor
-> (worker supervisor in the scheme) for each new client connection,
-> which at his turn creates 2 workers, one which handles connection and
-> message exchange between client and broker and the other one which
-> extracts messages from the subscribed topic and hands it over to first
-> worker.
+The supervision tree represents which actor creates/supervises other
+actors, for example, client supervisor has a role to create an actor
+(worker supervisor in the scheme) for each new client connection,
+which at his turn creates 2 workers, one which handles connection and
+message exchange between client and broker and the other one which
+extracts messages from the subscribed topic and hands it over to first
+worker.
 
-![](media/media/image3.png){width="6.623611111111111in"
-height="4.347222222222222in"}
+![](media/media/image3.png)
 
 Figure 3. Data flow
 
