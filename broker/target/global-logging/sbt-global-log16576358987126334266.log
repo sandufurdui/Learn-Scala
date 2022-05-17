@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(dcd1f4d0-9176-4d2c-89a1-1f6fea110084), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to D:\Users\sandu\Desktop\Github\Learn-Scala\broker\target\scala-2.13\classes ...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 14 s, completed 17 mai 2022, 22:56:21[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

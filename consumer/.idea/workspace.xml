@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d6dbf29-0213-48f2-a411-8e75a5031d26" name="Changes" comment="" />
+    <list default="true" id="3d6dbf29-0213-48f2-a411-8e75a5031d26" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../broker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/src/main/scala/broker/SimplisticHandler.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/src/main/scala/broker/SimplisticHandler.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/broker_2.13-0.1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/scala-2.13/broker_2.13-0.1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/SimplisticHandler$$anonfun$receive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/SimplisticHandler$$anonfun$receive$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/zinc/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/scala-2.13/zinc/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/streams/compile/compile/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/streams/compile/compile/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/streams/compile/packageBin/_global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/streams/compile/packageBin/_global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/streams/compile/packageBin/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/streams/compile/packageBin/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../publisher/publisher.py" beforeDir="false" afterPath="$PROJECT_DIR$/../publisher/publisher.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +69,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../producer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../publisher/publisher.py" />
   </component>
   <component name="RunManager">
     <configuration name="runConsumer" type="SbtRunConfiguration" factoryName="sbt Task" show_console_on_std_err="false" show_console_on_std_out="false">

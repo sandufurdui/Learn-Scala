@@ -6,33 +6,35 @@ import random
 from time import sleep
 
 
-s = socket.socket()
-print ("Socket successfully created")
+IP = "localhost"
+PORT = 5600
+n = 0
 
-port = 5600
+client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-s.bind(('localhost', port))
+client_socket.connect((IP, PORT))
 
-s.listen(5)
-print ("socket is redy to send")
-
-c, addr = s.accept()
-print ('Got connection from', addr )
-
+print("connected to " + IP + " on port " + str(PORT))
 
 conn = lol.HTTPConnection("localhost:4000")
 conn.request("GET", "/tweets/1")
 response = conn.getresponse()
 
+print("sending data")
+
 while True:
     data = response.readline()
     sleep_a_bit = random.randrange(0, 10) / 10
     # print(data_json)
+
     sleep(sleep_a_bit)
     data_decoded = data.decode("utf-8")
 
     first_word = re.split("\s", data_decoded)[0]
-
+    
     if first_word == 'data:':
-        # print(first_word)
-        c.send(data_decoded.encode())
+        # print(data_decoded.split(' ', 1)[1])
+        to_send = data_decoded.split(' ', 1)[1]
+        print("sent " + str(n) + " messages")
+        n = n + 1
+        client_socket.send(to_send.encode())

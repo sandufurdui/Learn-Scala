@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(db4f3f0f-077c-44d9-bb0f-fb3c6cd0523d), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to D:\Users\sandu\Desktop\Github\Learn-Scala\broker\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mD:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\TcpClient.scala:9:8: TcpClient is already defined as object TcpClient[0m
+[0m[[0m[31merror[0m] [0m[0mobject TcpClient {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\TcpClient.scala:14:7: TcpClient is already defined as class TcpClient[0m
+[0m[[0m[31merror[0m] [0m[0mclass TcpClient(remote: InetSocketAddress, var listener: ActorRef) extends Actor {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed 17 mai 2022, 17:58:45[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m
