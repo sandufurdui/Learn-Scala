@@ -1,4 +1,0 @@
-[debug] > Exec(__stopWatch console0; __failWatch console0, Some(ed2d99df-67f4-47c3-9432-9b61edb73e20), Some(CommandSource(console0)))
-[debug] > Exec(__stopWatch console0, None, Some(CommandSource(console0)))
-[debug] > Exec(__failWatch console0, None, Some(CommandSource(console0)))
-[debug] > Exec(idea-shell, None, None)

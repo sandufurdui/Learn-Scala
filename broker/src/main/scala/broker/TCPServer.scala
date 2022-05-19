@@ -28,10 +28,10 @@ class TCPServer(remote: InetSocketAddress) extends Actor {
 
     case c @ Connected(remote, local) =>
 //      val b = new ArrayBuffer[String]()
-      println(s"Client connected - Remote(Client): ${remote.getAddress} Local(Server): ${local.getAddress}")
+      println(s"Client connected - Remote(publisher): ${remote.getAddress}:${remote.getPort} Local(receiving server): ${local.getAddress}")
       val handler = context.actorOf(Props[SimplisticHandler])
-      val connection = sender()
-      connection ! Register(handler)
+      val connection1 = sender()
+      connection1 ! Register(handler)
   }
 
 }

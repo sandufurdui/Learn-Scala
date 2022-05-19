@@ -9,10 +9,10 @@ import ujson.IndexedValue.True
 object Main {
   def main(args: Array[String]): Unit = {
     val host = "localhost"
-    val port = 5600
+    val port = 5601
     println(s"Started client! connecting to ${host}:${port}")
 
-    val clientProps = Props(classOf[TcpClient], new InetSocketAddress(host, port), null)
+    val clientProps = TcpClient.props(new InetSocketAddress(host, port), null)
 
     val actorSystem: ActorSystem = ActorSystem.create("ConsumersActorSystem")
     val clientActor: ActorRef = actorSystem.actorOf(clientProps)

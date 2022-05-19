@@ -1,0 +1,10 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(babc42e4-e115-4f3d-9b5b-b0a48afdf640), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 5 Scala sources to D:\Users\sandu\Desktop\Github\Learn-Scala\broker\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m2 deprecations (since 2.13.0)[0m
+[0m[[0m[33mwarn[0m] [0m[0m2 deprecations (since 2.13.3)[0m
+[0m[[0m[33mwarn[0m] [0m[0m4 deprecations in total; re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 22 s, completed 19 mai 2022, 15:57:10[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
