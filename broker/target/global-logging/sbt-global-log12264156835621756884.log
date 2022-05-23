@@ -1,0 +1,20 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(bea80dcf-8520-4b55-ac2f-b8f6c7bd7d6f), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to D:\Users\sandu\Desktop\Github\Learn-Scala\broker\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala:35:7: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      try context.actorSelection("akka://brokerSystem/user/queueManager").tell(response, sender)[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala:21:10: patterns after a variable pattern cannot match (SLS 8.1.1)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    case s => print(s"printing from client worker ----- ${s}")[0m
+[0m[[0m[33mwarn[0m] [0m[0m         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala:27:25: unreachable code due to variable pattern 's' on line 21[0m
+[0m[[0m[33mwarn[0m] [0m[0m    case Received(data) =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala:68:36: unreachable code due to variable pattern 's' on line 21[0m
+[0m[[0m[33mwarn[0m] [0m[0m    case PeerClosed     => context stop self[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m2 deprecations (since 2.13.3); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0m5 warnings found[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 28 s, completed 23 mai 2022, 21:45:35[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

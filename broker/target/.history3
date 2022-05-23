@@ -4,3 +4,30 @@
 1652961480722:run
 1652963934757:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/sandu/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/sandu/AppData/Roaming/JetBrains/IdeaIC2021.3/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
 1652964079837:run
+1653303584411:import akka.actor._
+1653303600101:lol = 3
+1653304405560:run
+1653315700941:lol = 3
+1653316408119:run
+1653321694684:exit
+1653321883417:run
+1653327551163:exit
+1653327564682:run
+1653328391230:exit
+1653328403021:run
+1653328500262:exit
+1653328523302:run
+1653328577003:exit
+1653328588353:run
+1653328735672:exit
+1653328749188:run
+1653329006619:exir
+1653329009351:exit
+1653329022908:exir
+1653329025244:run
+1653329129494:exit
+1653329143124:run
+1653329387261:exit
+1653329400430:run
+1653329907077:exit
+1653329920016:run

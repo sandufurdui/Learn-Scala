@@ -1,0 +1,2 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shutdown, Some(7f062525-250f-45a9-be63-80eeaa2e20f7), Some(CommandSource(console0)))[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

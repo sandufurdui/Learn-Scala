@@ -7,6 +7,7 @@ lazy val root = (project in file("."))
     name := "broker"
   )
 
+
 val AkkaVersion = "2.6.13"
 val AkkaHttpVersion = "10.1.11"
 libraryDependencies ++= Seq(
