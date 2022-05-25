@@ -1,4 +1,4 @@
-[0m[[0m[33mwarn[0m] [0m[0m1 deprecation (since 2.13.0)[0m
-[0m[[0m[33mwarn[0m] [0m[0m1 deprecation (since 2.13.3)[0m
-[0m[[0m[33mwarn[0m] [0m[0m2 deprecations in total; re-run with -deprecation for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala:47:11: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.[0m
+[0m[[0m[33mwarn[0m] [0m[0m          try context.actorSelection("akka://brokerSystem/user/queueManager").tell(b, sender = context.self)[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

@@ -18,7 +18,7 @@ class PublisherAutoscaler(remote: InetSocketAddress) extends Actor {
   import Tcp._
   import context.system
 
-  println("--------publisher autoscaler started--------")
+  println(s"------Publisher autoscaler started------")
 
   IO(Tcp) ! Bind(self, remote)
 //  val msg = "test message from publisher worker"
@@ -32,7 +32,7 @@ class PublisherAutoscaler(remote: InetSocketAddress) extends Actor {
   def receive: Receive = {
 //    case s => print(s"printing from publisher autoscaler ----- ${s}")
     case b @ Bound(localAddress) =>
-      context.parent ! b
+//      context.parent ! b
 
     case CommandFailed(_: Bind) ⇒ context stop self
 

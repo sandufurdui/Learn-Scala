@@ -20,20 +20,20 @@ class ClientAutoscaler(remote: InetSocketAddress) extends Actor {
 
   IO(Tcp) ! Bind(self, remote)
 
-  println("--------client autoscaler started--------")
+  println(s"------Client autoscaler started------")
 
   def receive: Receive = {
 //    case s => print(s"printing from client autoscaler ----- ${s}")
     case b @ Bound(localAddress) =>
-      context.parent ! b
+//      context.parent ! b
 
     case CommandFailed(_: Bind) ⇒ context stop self
 
     case c @ Connected(remote, local) =>
 //      queueManager ! response
       //      val b = new ArrayBuffer[String]()
-      println(s"Client connected - Remote(client): ${remote.getAddress}:${remote.getPort} Local(sending server): ${local.getAddress}")
-      val handler1 = context.actorOf(Props[ClientWorker], name = "clientWorker")
+      println(s"Client connected - Remote(client): ${remote.getAddress}:${remote.getPort}")
+      val handler1 = context.actorOf(Props[ClientWorker])
       val connection1 = sender()
       connection1 ! Register(handler1)
   }

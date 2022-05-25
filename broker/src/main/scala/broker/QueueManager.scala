@@ -6,28 +6,26 @@ import akka.util.ByteString
 
 import scala.collection.mutable.ArrayBuffer
 
-
+case class qResponse(y: String)
 
 class QueueManager extends Actor {
+  println(s"------Queue manager started------")
+
     import Tcp._
     val b = new ArrayBuffer[String]()
-//    val system = ActorSystem("brokerSystem")
-//    val actor: Not actorSystem.actorOf(Props(ActorExample), "RootActor")
-   // val test = system.actorOf(Props[QueueManager], "client")
     def receive: Receive = {
-      case s => {
-//        b.append(s)
-        val k = "lol"
-        b.append(k)
-//        println(s"received data in queue manager -------- ${s}")
-        println(s"Queue manager buffer size = ${b.size}")
-//        sender() ! "queue manager received message"
+      case message => {
+        println(s"(queue manager)received data in queue manager -------- ${message}")
+        b.append(message.toString)
+//        println(s"Queue manager buffer = ${b}")
+//        println(s"sender adress 1 ---------- ${sender()}")
+//        println(s"sender adress 2 ---------- ${sender}")
+//        println(s"sender adress 3 ---------- ${context.sender}")
+//        println(s"sender adress 4 ---------- ${context.sender()}")
+
+
+        val lolidk = s"buffer stored in queue manager: ${message}"
+        sender ! qResponse(lolidk)
       }
-//      case StartMessage =>
-////        println(context.actorSelection("/user/brokerSystem/"))
-////        println(s"queue manager name ${self.path.name}")
-//////        val msg = "test message from client worker"
-//////        context.actorSelection("/brokerSystem/queueManager").tell(msg, sender)
-////      println("lol")
     }
 }

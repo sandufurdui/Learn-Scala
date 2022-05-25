@@ -44,61 +44,9 @@ object Main {
     val ClientActor: ActorRef = system.actorOf(ClientProps, name= "client")
 //    PublisherActor ! ByteString("Starting receiving server...")
 //    ClientActor ! ByteString("Starting sending server...")
-    PublisherActor ! StartMessage
-    ClientActor ! StartMessage
+//    PublisherActor ! StartMessage
+//    ClientActor ! StartMessage
 //    qManager ! StartMessage
 
   }
 }
-
-
-
-//package broker
-//import akka.actor._
-//
-//case object PingMessage
-//case object PongMessage
-//case object StartMessage
-//case object StopMessage
-//
-//class Ping(pong: ActorRef) extends Actor {
-//  var count = 0
-//  def incrementAndPrint: Unit = { count += 1; println("ping") }
-//  def receive: Receive = {
-//    case StartMessage =>
-//      incrementAndPrint
-//      pong ! PingMessage
-//    case PongMessage =>
-//      incrementAndPrint
-//      if (count > 99) {
-//        sender ! StopMessage
-//        println("ping stopped")
-//        context.stop(self)
-//      } else {
-//        sender ! PingMessage
-//      }
-//    case _ => println("Ping got something unexpected.")
-//  }
-//}
-//
-//class Pong extends Actor {
-//  def receive: Receive = {
-//    case PingMessage =>
-//      println(" pong")
-//      sender ! PongMessage
-//    case StopMessage =>
-//      println("pong stopped")
-//      context.stop(self)
-//    case _ => println("Pong got something unexpected.")
-//  }
-//}
-//
-//object PingPongTest extends App {
-//  val system = ActorSystem("PingPongSystem")
-//  val pong = system.actorOf(Props[Pong], name = "pong")
-//  val ping = system.actorOf(Props(new Ping(pong)), name = "ping")
-//  // start the action
-//  ping ! StartMessage
-//  // commented-out so you can see all the output
-//  //system.shutdown
-//}

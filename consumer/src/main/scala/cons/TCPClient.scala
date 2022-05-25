@@ -26,10 +26,11 @@ class TcpClient(remote: InetSocketAddress, var listener: ActorRef) extends Actor
       context stop self
 
     case c @ Connected(remote, local) =>
-      listener ! c
+      // listener ! c
       val connection = sender()
       connection ! Register(self)
       context become {
+//        case s => println(s"server response ${s}")
         case data: ByteString =>
           connection ! Write(data)
         case CommandFailed(w: Write) =>

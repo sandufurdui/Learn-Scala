@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(56b7f973-aa8c-4935-9a99-799df12b6570), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to D:\Users\sandu\Desktop\Github\Learn-Scala\broker\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala:32:9: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.[0m
+[0m[[0m[33mwarn[0m] [0m[0m        try context.actorSelection("akka://brokerSystem/user/queueManager").tell(msg = "dsdsad", sender = context.self)[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 15 s, completed 25 mai 2022, 14:05:01[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

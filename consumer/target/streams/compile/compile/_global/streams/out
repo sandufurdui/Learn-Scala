@@ -1,0 +1,19 @@
+[0m[[0m[33mwarn[0m] [0m[0mD:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\TCPClient.scala:33:14: patterns after a variable pattern cannot match (SLS 8.1.1)[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case s => println(s"server response ${s}")[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\TCPClient.scala:35:22: unreachable code due to variable pattern 's' on line 33[0m
+[0m[[0m[33mwarn[0m] [0m[0m          connection ! Write(data)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\TCPClient.scala:38:20: unreachable code due to variable pattern 's' on line 33[0m
+[0m[[0m[33mwarn[0m] [0m[0m          listener ! "write failed"[0m
+[0m[[0m[33mwarn[0m] [0m[0m                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\TCPClient.scala:39:29: unreachable code due to variable pattern 's' on line 33[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case Received(data) =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\TCPClient.scala:43:22: unreachable code due to variable pattern 's' on line 33[0m
+[0m[[0m[33mwarn[0m] [0m[0m          connection ! Close[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\TCPClient.scala:44:34: unreachable code due to variable pattern 's' on line 33[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case _: ConnectionClosed =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m6 warnings found[0m
