@@ -18,7 +18,7 @@ class PublisherAutoscaler(remote: InetSocketAddress) extends Actor {
   import Tcp._
   import context.system
 
-  println(s"------Publisher autoscaler started------")
+  println(s"------------Publisher autoscaler started------------")
 
   IO(Tcp) ! Bind(self, remote)
 //  val msg = "test message from publisher worker"

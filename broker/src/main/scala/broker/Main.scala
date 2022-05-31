@@ -24,7 +24,7 @@ object Main {
     val sendPort = 5601
     println(s"Server started! listening to ${host}:${receivePort}")
     println(s"Server started! listening to ${host}:${sendPort}")
-    println(s"Queue manager actor started!")
+//    println(s"Queue manager actor started!")
 
 //    val system = ActorSystem("PingPongSystem")
 //    val pong = system.actorOf(Props[Pong], name = "pong")

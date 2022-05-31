@@ -1,14 +1,15 @@
 package cons
 
 import java.net.InetSocketAddress
-
 import akka.actor.{Actor, ActorRef, Props}
 import akka.io.{IO, Tcp}
 import akka.util.ByteString
 
+case class receivedKey(y: String, key: Int)
+
 object TcpClient {
-  def props(remote: InetSocketAddress, listener: ActorRef) =
-    Props(classOf[TcpClient], remote, listener)
+  def props(remote: InetSocketAddress, listener: ActorRef): Props =
+    Props(new TcpClient(remote, listener))
 }
 
 class TcpClient(remote: InetSocketAddress, var listener: ActorRef) extends Actor {
@@ -20,7 +21,7 @@ class TcpClient(remote: InetSocketAddress, var listener: ActorRef) extends Actor
 
   IO(Tcp) ! Connect(remote)
 
-  def receive = {
+  def receive: Receive = {
     case CommandFailed(_: Connect) =>
       listener ! "connect failed"
       context stop self
@@ -29,8 +30,9 @@ class TcpClient(remote: InetSocketAddress, var listener: ActorRef) extends Actor
       // listener ! c
       val connection = sender()
       connection ! Register(self)
+
       context become {
-//        case s => println(s"server response ${s}")
+//        case receivedKey(str, ll) => print(s"idk message ${str} with key ${ll}")
         case data: ByteString =>
           connection ! Write(data)
         case CommandFailed(w: Write) =>
@@ -38,6 +40,8 @@ class TcpClient(remote: InetSocketAddress, var listener: ActorRef) extends Actor
           listener ! "write failed"
         case Received(data) =>
           println(s"server response - ${data.utf8String}")
+//          var len = data.utf8String.toString.length
+//          sender ! len
           listener ! data
         case "close" =>
           connection ! Close

@@ -20,7 +20,7 @@ class ClientAutoscaler(remote: InetSocketAddress) extends Actor {
 
   IO(Tcp) ! Bind(self, remote)
 
-  println(s"------Client autoscaler started------")
+  println(s"------------Client autoscaler started------------")
 
   def receive: Receive = {
 //    case s => print(s"printing from client autoscaler ----- ${s}")

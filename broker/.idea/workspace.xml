@@ -5,34 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be7f8bd2-fcf2-4774-a3ff-4a13b866ab5e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_functional_2_13_2_9_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_json_2_13_2_9_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/broker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/broker.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d0b6749ffbc5ce08252d$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d0b6749ffbc5ce08252d.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d0b6749ffbc5ce08252d.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/broker/ClientAutoscaler.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/broker/ClientAutoscaler.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/broker/ClientWorker.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/broker/ClientWorker.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/broker/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/broker/Main.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/broker/PublisherAutoscaler.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/broker/PublisherAutoscaler.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/broker/PublisherWorker.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/broker/PublisherWorker.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/broker/QueueManager.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/broker/QueueManager.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/.history3" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/global-logging/sbt-global-log1554728177331105255.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/broker_2.13-0.1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/broker_2.13-0.1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/broker/ClientAutoscaler$$anonfun$receive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/broker/ClientAutoscaler$$anonfun$receive$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/broker/ClientAutoscaler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/broker/ClientAutoscaler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/broker/ClientWorker$$anonfun$receive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/broker/ClientWorker$$anonfun$receive$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/broker/ClientWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/broker/ClientWorker.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/broker/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/broker/Main$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/broker/PublisherAutoscaler$$anonfun$receive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/broker/PublisherAutoscaler$$anonfun$receive$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/broker/PublisherAutoscaler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/broker/PublisherAutoscaler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/broker/PublisherWorker$$anonfun$receive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/broker/PublisherWorker$$anonfun$receive$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/broker/PublisherWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/broker/PublisherWorker.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/broker/QueueManager$$anonfun$receive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/broker/QueueManager$$anonfun$receive$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/broker/QueueManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/broker/QueueManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/broker/Start$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/broker/Start.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/broker/qResponse$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/broker/qResponse$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/broker/qResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/broker/qResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/zinc/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/zinc/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/dependencyClasspathAsJars/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/dependencyClasspathAsJars/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/fullClasspathAsJars/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/fullClasspathAsJars/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../consumer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../consumer/src/main/scala/cons/TCPClient.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/src/main/scala/cons/TCPClient.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer/target/scala-2.13/classes/cons/TcpClient$$anonfun$receive$1$$anonfun$applyOrElse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/target/scala-2.13/classes/cons/TcpClient$$anonfun$receive$1$$anonfun$applyOrElse$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer/target/scala-2.13/classes/cons/TcpClient$$anonfun$receive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/target/scala-2.13/classes/cons/TcpClient$$anonfun$receive$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer/target/scala-2.13/classes/cons/TcpClient$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/target/scala-2.13/classes/cons/TcpClient$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer/target/scala-2.13/classes/cons/TcpClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/target/scala-2.13/classes/cons/TcpClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer/target/scala-2.13/consumer_2.13-0.1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/target/scala-2.13/consumer_2.13-0.1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer/target/scala-2.13/zinc/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/target/scala-2.13/zinc/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer/target/streams/compile/compile/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/target/streams/compile/compile/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../consumer/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../consumer/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../consumer/target/streams/compile/packageBin/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/target/streams/compile/packageBin/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer/target/streams/compile/packageBin/_global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/target/streams/compile/packageBin/_global/streams/inputs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
