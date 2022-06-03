@@ -39,7 +39,7 @@ class PublisherAutoscaler(remote: InetSocketAddress) extends Actor {
     case c @ Connected(remote, local) =>
       //      val b = new ArrayBuffer[String]()
       println(s"Client connected - Remote(publisher): ${remote.getAddress}:${remote.getPort} Local(receiving server): ${local.getAddress}")
-      val handler = context.actorOf(Props[PublisherWorker], name = "publisherWorker")
+      val handler = context.actorOf(Props[PublisherWorker])
       val connection1 = sender()
       connection1 ! Register(handler)
   }

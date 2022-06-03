@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(3d66bb14-8e2b-43ec-96dc-8786063a9173), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to D:\Users\sandu\Desktop\Github\Learn-Scala\broker\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mD:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\Message.scala:47:8: not enough arguments for method get: (id: Int, reff: String): com.twitter.util.Future[broker.Message].[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter reff.[0m
+[0m[[0m[31merror[0m] [0m[0m    get(message.id).map(messageRecord => p.setValue(messageRecord)).rescue {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 3 s, completed 3 iun. 2022, 16:33:59[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -10,31 +10,12 @@ import play.api.libs.json.JsString
 import play.api.libs.json.JsValue
 
 
-//import scala.collection.mutable.ArrayBuffer
-//
-//case class JsonMessage(string: String, sender: String = "") {
-//  val json: JsValue = Json.parse(string)
-//
-//  def getMessage: String = {
-//    string
-//  }
-//
-//  def get_topic: String = {
-//    // Topic is situated in message, tweet, user, time_zone
-//    (json \ "message" \ "tweet" \ "user" \ "time_zone").getOrElse(JsNull).toString()
-//  }
-//
-//  def get_field(field: String): JsValue = {
-//    (json \ field).get
-//  }
-//}
-//
-//case class SubscribeConsumer(consumer_address: String, topic_array: ArrayBuffer[String])
-//
-//case class UnsubscribeConsumer(consumer_address: String, topic_array: ArrayBuffer[String])
-//
-//case class CreateListener(port: Int)
+import scala.concurrent.Future
 
+
+import scala.beans.BeanProperty
+//import com.twitter.util.{Future, Promise}
+import com.google.firebase.database._
 
 
 
@@ -47,12 +28,22 @@ class QueueManager extends Actor {
   println(s"------------Queue manager started------------")
 
     import Tcp._
+    var count :Int = 1711
+    var temp :String = ""
     var topicList: Seq[String] = List[String]()
     var distinctList: Seq[String] = List[String]()
     def receive: Receive = {
       case subscribeRequest(text) =>
-        print(s"subscribe request arrived to qmanager ${text}")
-        sender ! qResponse(distinctList.toString())
+//        print(s"subscribe request arrived to qmanager ${text}")
+        Message.get(0, "messages").map(text => temp = text.toString)
+        sender ! qResponse(temp)
+//        val toSend = Message(1, "message.toString", "topic", "messages")
+//        val lol = Message(1, "message.toString", "topic", "urmom")
+//        Message.create(toSend).map(message => println(s"Created message with id ${message.id}"))
+//        Message.create(lol).map(message => println(s"Created message with id ${message.id}"))
+//        Message.get(1, "messages").map(message => println(s"message stored in db= ${message}"))
+//        Message.get(1, "urmom").map(message => println(s"message dynamically stored in db= ${message}"))
+
       case updateRequest(text) =>
         print(s"update request arrived to qmanager ${text}")
         sender ! qResponse(distinctList.toString())
@@ -61,33 +52,28 @@ class QueueManager extends Actor {
           val json: JsValue = Json.parse(message.toString)
 
           def topic: String = {
-            // Topic is situated in message, tweet, user, time_zone
             (json \ "message" \ "tweet" \ "user" \ "time_zone").getOrElse(JsNull).toString()
           }
 
-          println(s"received topic ${topic}")
-          //        val array = Array(1,2,3,2,1,4)
-          //        array = array :+ topic
+//          println(s"queue length ${}")
           topicList = topicList :+ topic
-          distinctList = topicList.distinct
-          //        println(s"(queue manager)received data in queue manager -------- ${message.toString.length}")
-          //        b.append(topic)
-          //        val b = b.filter(_.contains("apple"))
-          //        if (b.exists(p: topic => Boolean)){
-          //          b.append("null")
-          //        }
-          //        b.distinct
-          //        println(s"Queue manager buffer ${b.size}")
-          //        println(s"Queue manager buffer = ${b}")
-          //        println(s"sender adress 1 ---------- ${sender()}")
-          //        println(s"sender adress 2 ---------- ${sender}")
-          //        println(s"sender adress 3 ---------- ${context.sender}")
-          //        println(s"sender adress 4 ---------- ${context.sender()}")
+          distinctList = topicList.distinct.sorted
+//          println(s"queue length ${distinctList.size}")
+          count = count + 1
+          val topicsToSend = Message(0, distinctList.toString, null, "messages")
+          Message.create(topicsToSend).map(message => println(s"updated topics in db ${distinctList.size}"))
+          val toSend = Message(count, message.toString, topic, "messages")
+          Message.create(toSend).map(message => println(s"Created message with id ${message.id}"))
+//          Message.get(1, "urmom").map(message => println(s"message dynamically stored in db= ${message}"))
+
+//          val tim = Message(1, message.toString, topic)
+//          Message.create(tim).map(message => println(s"Created message with id ${message.id}"))
 
 
-          //        val lolidk = s"buffer stored in queue manager: ${message}"
-          //        sender ! qResponse(lolidk)
+
         }
       }
     }
 }
+
+

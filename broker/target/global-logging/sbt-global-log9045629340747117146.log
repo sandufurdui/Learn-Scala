@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(5de41a6d-bd4b-4a39-9ada-b2cfd2973a70), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to D:\Users\sandu\Desktop\Github\Learn-Scala\broker\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mD:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\QueueManager.scala:60:23: class com.google.firebase.database.DataSnapshot is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m              println(DataSnapshot)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 4 s, completed 31 mai 2022, 23:37:53[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

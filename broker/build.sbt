@@ -20,5 +20,9 @@ libraryDependencies ++= Seq(
   "net.liftweb" %% "lift-json" % "3.4.3",
   "org.json4s" %% "json4s-jackson" % "3.7.0-M11",
   "ch.qos.logback" % "logback-classic" % "1.2.3" % Runtime,
-  "com.typesafe.play" %% "play-json" % "2.9.2"
+  "com.typesafe.play" %% "play-json" % "2.9.2",
+//  "com.elkozmon" % "akka-stream-firebase-queue_2.12" % "2.1"
+//  "com.google.firebase" % "firebase-server-sdk" % "3.0.1"
+"com.google.firebase" % "firebase-server-sdk" % "3.0.3",
+"com.twitter" %% "finagle-http" % "22.4.0"
 )
