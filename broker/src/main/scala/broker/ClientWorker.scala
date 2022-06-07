@@ -3,66 +3,134 @@ package broker
 import akka.actor.{Actor, ActorRef}
 import akka.io.Tcp
 import akka.util.ByteString
+import com.google.firebase.tasks.Tasks.await
 
-import scala.collection.mutable.ArrayBuffer
+import scala.collection.mutable.{ArrayBuffer, ListBuffer}
+import scala.concurrent.Future
 import scala.language.postfixOps
 
-case class subscribeRequest(y: Seq[String])
-case class updateRequest(y: String)
-case class getRequest()
+case class subscribeRequest(subString: Seq[String], username: String)
+case class unsubscribeRequest(y: Seq[String])
+case class getTopicsRequest()
+case class recoverRequest(name: String)
 
-case class sendToClient(y: String, key: Int)
 
-//case class Start(buf: Array[String]) {
-//  override def toString = buf.mkString("->")
-//}
-
-class ClientWorker extends Actor {
+ class ClientWorker extends Actor {
   import Tcp._
+  def toInt(s: String): Int = { try { s.toInt } catch { case e: Exception => 0 } }
+//  def async[T](body: => T): Future[T]
+//  def await[T](future: Future[T]): T
 
+  var count: Int = 0
+  Message.get(1, "messages/length").map(text => {
+    count = toInt(text.body)
+  })
   var TCPsender: ActorRef = sender()
-  val b = new ArrayBuffer[String]()
-//  var resp: Array[String] = Array[String]()
-  var resp = List[String]()
+  var subscribedIDs = new ListBuffer[Int]()
+  var finalResponse = new ArrayBuffer[String]()
+  var username = ""
   println(s"------------client worker started ${context.self}------------")
+
   def receive: Receive = {
-    case qResponse(str) => {
+    case qResponse(str) =>
       println(s"(client worker) queueManager response ${str}")
-//      for( a <- 1 to 30){
-//        TCPsender ! Write(ByteString(s"SERVER_RES: ${a}"))
-//      }
       TCPsender ! Write(ByteString(s"SERVER_RES: ${str}"))
-    }
+
     case Received(data) => {
       var response = data.utf8String
       var firstWord = response.split(" ").head
-//      println(s"first word of the command ${toCheck}")
+      var lastWord = response.split(" ").tail
       TCPsender = sender()
-      b.prepend(response)
+      val responseDecoded = data.utf8String
+      val responseAsSeq = responseDecoded.split(" ")
       if (firstWord == "subscribe") {
-        val response = data.utf8String
-        val resp = response.split(" ")
-//        TCPsender ! Write(ByteString(s"SERVER_RES: afdfsd"))
-//        println(s"---------${resp}")
-        context.actorSelection("akka://brokerSystem/user/queueManager").tell(subscribeRequest(resp), sender = context.self)
+        if (responseDecoded.length < 10){
+          TCPsender ! Write(ByteString(s"SERVER_RES: please enter at least one topic!"))
+        } else{
+        context.actorSelection("akka://brokerSystem/user/queueManager").tell(subscribeRequest(responseAsSeq, username), sender = context.self)
+          Thread.sleep(3000)
+          for (a <- 1 to count){
+            Message.get(a, s"toRecover/${username}").map(response => {
+              println(s"sss  ${response.id}")
+              if (!subscribedIDs.contains(response.id)){
+                subscribedIDs.append(response.id)
+              }
+              subscribedIDs.distinct
+              println(s"ssfdsfss  ${subscribedIDs.toString}")
+            })
+          }
+        }
       }
-      else if (response == "unsubscribe") {
-        var unsubscribeText = "user unsubscribed confirmation"
-        TCPsender ! unsubscribeText
+      else if (firstWord == "unsubscribe") {
+        if(responseAsSeq.contains(lastWord.toString)){
+          var k = responseAsSeq.indexOf(lastWord.toString)
+          println(s"index ${k}")
+          println(s"before ${responseAsSeq.toString}")
+          responseAsSeq.slice(k, k)
+          println(s"after ${responseAsSeq.toString}")
+          (1, responseAsSeq)
+        } else{
+          println(s"trying to reach ${lastWord.mkString("Array(", ", ", ")").replace("Array(", "").replace(")","")}")
+//          println(s"trying to reach 2 ${lastWord.toString}")
+          println(s"no such topic!")
+          println(s"command ${responseAsSeq.toString}")
+        }
       }
-      else if (response == "update") {
-        context.actorSelection("akka://brokerSystem/user/queueManager").tell(updateRequest(response.toString), sender = context.self)
-        var updateText = "user update request received"
-        TCPsender  ! Write(ByteString(updateText))
+//        context.actorSelection("akka://brokerSystem/user/queueManager").tell(unsubscribeRequest(lastWord), sender = context.self)
+
+      else if (response == "getT") {
+        context.actorSelection("akka://brokerSystem/user/queueManager").tell(getTopicsRequest(), sender = context.self)
       }
-      else if (response == "get") {
-        context.actorSelection("akka://brokerSystem/user/queueManager").tell(getRequest(), sender = context.self)
-//        var updateText = "user update request received"
-//        TCPsender  ! Write(ByteString(updateText))
+      else if (response == "getM") {
+         if(subscribedIDs.isEmpty){
+           println("queue empty, please subscribe first then update")
+        }
+        context.actorSelection("akka://brokerSystem/user/queueManager").tell(getMessagesRequest(subscribedIDs, responseAsSeq, username), sender = context.self)
+      }
+      else if (firstWord == "update") {
+        for (a <- 1 to count){
+          Message.get(a, s"toRecover/${username}").map(response => {
+            println(s"sss  ${response.id}")
+            if (!subscribedIDs.contains(response.id)){
+              subscribedIDs.append(response.id)
+            }
+            subscribedIDs.distinct
+            println(s"ssfdsfss  ${subscribedIDs.toString}")
+          })
+        }
+      }
+      else if (firstWord == "recover") {
+//        if(subscribedIDs.isEmpty){
+//          for (a <- 1 to count){
+//            Message.get(a, s"toRecover/${username}").map(response => {
+//              println(s"sss  ${response.id}")
+//              subscribedIDs.append(response.id)
+//              println(s"ssfdsfss  ${subscribedIDs.toString}")
+//            })
+//          }
+//        }
+        context.actorSelection("akka://brokerSystem/user/queueManager").tell(recoverRequest(lastWord.toString), sender = context.self)
+      }
+      else{
+        if (username.length != 0){
+          TCPsender ! Write(ByteString("unknown command"))
+        } else {
+          username = data.utf8String
+          println(s"succesfully set name to ${username}")
+          for (a <- 1 to count){
+            Message.get(a, s"toRecover/${username}").map(response => {
+              println(s"sss  ${response.id}")
+              subscribedIDs.append(response.id)
+              subscribedIDs.distinct
+              println(s"ssfdsfss  ${subscribedIDs.toString}")
+            })
+          }
+        }
+
       }
       println(s"Data received - ${data.utf8String}")
-
     }
+
     case PeerClosed     => context stop self
   }
 }

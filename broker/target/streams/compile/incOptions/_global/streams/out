@@ -1,35 +1,35 @@
 [0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = D:\Users\sandu\Desktop\Github\Learn-Scala\broker\target\scala-2.13\classes.bak[0m
 [0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	updateRequest$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	getRequest.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	sendToClient.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	unsubscribeRequest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	recoverRequest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	recoverRequest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	unsubscribeRequest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	getTopicsRequest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	getTopicsRequest.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ClientWorker$$anonfun$receive$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	subscribeRequest$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	getRequest$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	updateRequest.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	sendToClient$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	subscribeRequest.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ClientWorker.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	updateRequest$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	getRequest.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	sendToClient.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	unsubscribeRequest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	recoverRequest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	recoverRequest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	unsubscribeRequest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	getTopicsRequest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	getTopicsRequest.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ClientWorker$$anonfun$receive$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	subscribeRequest$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	getRequest$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	updateRequest.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	sendToClient$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	subscribeRequest.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ClientWorker.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	updateRequest$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	getRequest.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	sendToClient.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	unsubscribeRequest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	recoverRequest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	recoverRequest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	unsubscribeRequest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	getTopicsRequest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	getTopicsRequest.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ClientWorker$$anonfun$receive$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	subscribeRequest$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	getRequest$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	updateRequest.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	sendToClient$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	subscribeRequest.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ClientWorker.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\target\scala-2.13\classes.bak[0m

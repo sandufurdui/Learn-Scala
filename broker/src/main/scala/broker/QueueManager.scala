@@ -1,17 +1,11 @@
 package broker
 
 import akka.actor.{Actor, ActorSystem, Props}
-import akka.io.Tcp
-import play.api.libs.json.JsNull
-import play.api.libs.json.Json
-import play.api.libs.json.JsValue
+import scala.collection.mutable.{ArrayBuffer, ListBuffer}
 
-import scala.collection.mutable.ArrayBuffer
-
-//case class qResponse(y: ArrayBuffer[String])
-case class qResponse(y: String)
-
-
+case class qResponse(response: String)
+case class subscribedTopics(y: Array[Int])
+case class getMessagesRequest(idList: ListBuffer[Int], topicList: Seq[String], username: String)
 
 class QueueManager extends Actor {
   def toInt(s: String): Int = { try { s.toInt } catch { case e: Exception => 0 } }
@@ -23,89 +17,68 @@ class QueueManager extends Actor {
   var topicList: Seq[String] = List[String]()
   var distinctList: Seq[String] = List[String]()
 
-  Message.get(1, "length").map(text => {
+  Message.get(1, "messages/length").map(text => {
     count = toInt(text.body)
   println(s"${count} Messages already stored in db")
   })
-  Message.get(0, "messages").map(text => {
+  Message.get(0, "messages/topicList").map(text => {
     topicsList = text.body
-    println(s"Initial topics list: ${topicsList}")
+    println(s"Stored topics: ${topicsList}")
     topicList = topicsList.split(", ")
   })
-  val tempList = new ArrayBuffer[String]()
+
   def receive: Receive = {
-    case subscribeRequest(text) =>
-      var a = 0
-//      sender() ! qResponse(tempList)
+    case sendTopic(topic) =>
+      count = count + 1
+      println(s"received topic in queue: ${topic}")
+      topicList = topicList :+ topic
+      distinctList = topicList.distinct.sorted
+      var tempString = distinctList.mkString(", ")
+      topicsToStore = tempString.replaceAll("\"", "")
 
-      val temp = text
-      println(s"sender address ${sender}")
-      val test = "asdfdfsfsd"
-//      sender().tell("Hello", context.self)
-//      sender() ! qResponse(test)
-      for( a <- 1 to 900){
-//        sender() ! qResponse(tempList)
-        Message.get(a, "messages").map(text => {
-//          println(s"message topic: ${text.topic}")
+      val topicsToSend = Message(0, topicsToStore, null, "messages/topicList")
+      Message.create(topicsToSend).map(message => print(s""))
+      val topicToSend = Message(count, null, topic.replaceAll("\"", ""), "messages/topicList")
+      Message.create(topicToSend).map(message => print(s""))
+      val length = Message(1, count.toString, null, "messages/length")
+      Message.create(length).map(message => print(s""))
 
-          if (temp.contains(text.topic) && (a <= count)){
-            println(s"index message ${a}")
-//            tempList.+(a.toString)
-            tempList.append(a.toString)
-//            println(s"temp list: ${tempList}")
+    case sendBody(body) =>
+      println(s"received topic in queue: ${body.length}")
+      val topicsToSend = Message(count, body, null, "messages/body")
+      Message.create(topicsToSend).map(message => print(s""))
+
+    case subscribeRequest(text, name) =>
+      for (a <- 1 to count) {
+        Message.get(a, "messages/topicList").map(response => {
+          if (text.contains(response.topic) && (a <= count)) {
+            Message.get(a, "messages/body").map(response1 => {
+              val topicsToSend = Message(a, response1.body, response.topic, s"toRecover/${name}")
+              Message.create(topicsToSend).map(message => print(s""))
+            })
+
           }
-
         })
-//        println(s"${a}")
-//        if (a == 900){
-//          println(s"mmmmmmm")
-//          tempList.foreach( println )
-//          println("bbbbbbb")
-//          if (tempList.nonEmpty) {
-//            println("aaaaaa")
-//            for (name <- tempList) {
-//              println("llll")
-//              sender() ! qResponse(name)
-//            }
+      }
+
+    case getMessagesRequest(idList, topicList, username) =>
+      for (id <- idList) {
+        Message.get(id, s"toRecover/${username}").map(text => {
+//          if(topicList.contains(text.topic)){
+            println(s"id: ${text.id}")
+            println(s"topic: ${text.topic}")
 //          }
-//        }
+        })
       }
 
+    case getTopicsRequest() =>
+      Message.get(0, "messages/topicList").map(text => topicsList = text.body)
+      sender ! qResponse(topicsList)
 
-    case getRequest()=>
-      if (tempList.nonEmpty) {
-        println("aaaaaa")
-        for (name <- tempList) {
-          println("llll")
-          sender() ! qResponse(name)
-        }
-      }
+    case recoverRequest(name) =>
+      println(name)
 
-    case updateRequest(text) =>
-      print(s"update request arrived to qmanager ${text}")
-      Message.get(0, "messages").map(text => topicsList = text.body)
-//      sender ! qResponse(topicsList)
-    case message => {
-      if (message.toString.length >50) {
-        val json: JsValue = Json.parse(message.toString)
-        def topic: String = {
-          (json \ "message" \ "tweet" \ "user" \ "time_zone").getOrElse(JsNull).toString()
-        }
-        topicList = topicList :+ topic
-        distinctList = topicList.distinct.sorted
-        var tempString = distinctList.mkString(", ")
-        topicsToStore = tempString.replaceAll("\"", "")
-        count = count + 1
-
-        val topicsToSend = Message(0, topicsToStore, null, "messages")
-        Message.create(topicsToSend).map(message => print(s""))
-        val noOfDbMessages = Message(1, count.toString, null, "length")
-        Message.create(noOfDbMessages).map(message => print(s""))
-        val toSend = Message(count, message.toString, topic.replaceAll("\"", ""), "messages")
-        Message.create(toSend).map(message => print(s""))
-        }
-      }
-    }
+  }
 }
 
 

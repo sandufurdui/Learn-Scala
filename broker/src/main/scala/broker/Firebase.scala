@@ -11,7 +11,7 @@ object Firebase {
   private val credentials : InputStream = getClass.getResourceAsStream("/firebaseCredentials.json")
   //  private val credentials : InputStream = getClass.getResourceAsStream("ptrlab-aeb3e-firebase-adminsdk-gyb13-ef2f2e67a9.json")
   private val options = new  FirebaseOptions.Builder()
-    .setDatabaseUrl("https://broker-83359-default-rtdb.europe-west1.firebasedatabase.app/")
+    .setDatabaseUrl("https://test-4ec24-default-rtdb.europe-west1.firebasedatabase.app/")
     .setServiceAccount(credentials)
     .build()
   FirebaseApp.initializeApp(options)
