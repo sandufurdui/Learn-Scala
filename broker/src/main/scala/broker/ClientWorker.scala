@@ -51,30 +51,30 @@ case class recoverRequest(name: String)
           Thread.sleep(3000)
           for (a <- 1 to count){
             Message.get(a, s"toRecover/${username}").map(response => {
-              println(s"sss  ${response.id}")
+//              println(s"sss  ${response.id}")
               if (!subscribedIDs.contains(response.id)){
                 subscribedIDs.append(response.id)
               }
               subscribedIDs.distinct
-              println(s"ssfdsfss  ${subscribedIDs.toString}")
+              println(s"updated list  ${subscribedIDs.toString}")
             })
           }
         }
       }
       else if (firstWord == "unsubscribe") {
-        if(responseAsSeq.contains(lastWord.toString)){
-          var k = responseAsSeq.indexOf(lastWord.toString)
-          println(s"index ${k}")
-          println(s"before ${responseAsSeq.toString}")
-          responseAsSeq.slice(k, k)
-          println(s"after ${responseAsSeq.toString}")
-          (1, responseAsSeq)
-        } else{
-          println(s"trying to reach ${lastWord.mkString("Array(", ", ", ")").replace("Array(", "").replace(")","")}")
-//          println(s"trying to reach 2 ${lastWord.toString}")
-          println(s"no such topic!")
-          println(s"command ${responseAsSeq.toString}")
-        }
+//        if(responseAsSeq.contains(lastWord)){
+//          var k = responseAsSeq.indexOf(lastWord)
+//          println(s"index ${k}")
+//          println(s"before ${responseAsSeq.toString}")
+//          responseAsSeq.slice(k, k)
+//          println(s"after ${responseAsSeq.toString}")
+//          (1, responseAsSeq)
+//        } else{
+//          println(s"trying to reach ${lastWord.mkString("Array(", ", ", ")").replace("Array(", "").replace(")","")}")
+////          println(s"trying to reach 2 ${lastWord.toString}")
+//          println(s"no such topic!")
+//          println(s"command ${responseAsSeq.toString}")
+//        }
       }
 //        context.actorSelection("akka://brokerSystem/user/queueManager").tell(unsubscribeRequest(lastWord), sender = context.self)
 
@@ -90,16 +90,18 @@ case class recoverRequest(name: String)
       else if (firstWord == "update") {
         for (a <- 1 to count){
           Message.get(a, s"toRecover/${username}").map(response => {
-            println(s"sss  ${response.id}")
+//            println(s"sss  ${response.id}")
             if (!subscribedIDs.contains(response.id)){
               subscribedIDs.append(response.id)
             }
             subscribedIDs.distinct
-            println(s"ssfdsfss  ${subscribedIDs.toString}")
+            println(s"updated list  ${subscribedIDs.toString}")
           })
         }
       }
       else if (firstWord == "recover") {
+        var testString = "{\n    \"key\": 12,\n    \"message\": \"test message\"\n}"
+        TCPsender ! Write(ByteString(testString))
 //        if(subscribedIDs.isEmpty){
 //          for (a <- 1 to count){
 //            Message.get(a, s"toRecover/${username}").map(response => {
@@ -109,7 +111,7 @@ case class recoverRequest(name: String)
 //            })
 //          }
 //        }
-        context.actorSelection("akka://brokerSystem/user/queueManager").tell(recoverRequest(lastWord.toString), sender = context.self)
+//        context.actorSelection("akka://brokerSystem/user/queueManager").tell(recoverRequest(lastWord.toString), sender = context.self)
       }
       else{
         if (username.length != 0){
@@ -119,10 +121,10 @@ case class recoverRequest(name: String)
           println(s"succesfully set name to ${username}")
           for (a <- 1 to count){
             Message.get(a, s"toRecover/${username}").map(response => {
-              println(s"sss  ${response.id}")
+//              println(s"sss  ${response.id}")
               subscribedIDs.append(response.id)
               subscribedIDs.distinct
-              println(s"ssfdsfss  ${subscribedIDs.toString}")
+              println(s"updated list  ${subscribedIDs.toString}")
             })
           }
         }

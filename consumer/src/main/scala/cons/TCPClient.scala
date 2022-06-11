@@ -4,6 +4,7 @@ import java.net.InetSocketAddress
 import akka.actor.{Actor, ActorRef, Props}
 import akka.io.{IO, Tcp}
 import akka.util.ByteString
+import play.api.libs.json.{JsNull, JsValue, Json, JsObject}
 
 case class receivedKey(y: String, key: Int)
 
@@ -39,10 +40,18 @@ class TcpClient(remote: InetSocketAddress, var listener: ActorRef) extends Actor
           // O/S buffer was full
           listener ! "write failed"
         case Received(data) =>
+          val byteArr = data.utf8String
+          var firstWord = byteArr.split(" ").head
           println(s"server response - ${data.utf8String}")
-//          var len = data.utf8String.toString.length
-//          sender ! len
-          listener ! data
+          println(s"first word - .${firstWord}.")
+          if (firstWord == "{\n") {
+//          val jsObject = Json.parse(byteArr).as[JsObject]
+          val json: JsValue = Json.parse(byteArr)
+          val key = (json \ "key").getOrElse(JsNull).toString()
+          println(s"key sent from server: ${key}")
+            sender ! Write(ByteString(key))
+          }
+//          listener ! data
         case "close" =>
           connection ! Close
         case _: ConnectionClosed =>

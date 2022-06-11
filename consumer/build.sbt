@@ -18,5 +18,6 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor-typed" % AkkaVersion,
   "net.liftweb" %% "lift-json" % "3.4.3",
   "org.json4s" %% "json4s-jackson" % "3.7.0-M11",
+  "com.typesafe.play" %% "play-json" % "2.9.2",
   "ch.qos.logback" % "logback-classic" % "1.2.3" % Runtime
 )
