@@ -1,4 +1,4 @@
-[error] java.lang.RuntimeException: Conflicting cross-version suffixes in: com.typesafe.akka:akka-actor, com.typesafe.akka:akka-stream, org.scala-lang.modules:scala-java8-compat, org.scala-lang.modules:scala-parser-combinators, com.typesafe:ssl-config-core, com.typesafe.akka:akka-slf4j
+[error] java.lang.RuntimeException: Conflicting cross-version suffixes in: com.typesafe.akka:akka-actor, org.scala-lang.modules:scala-java8-compat
 [error] 	at scala.sys.package$.error(package.scala:30)
 [error] 	at sbt.librarymanagement.ConflictWarning$.processCrossVersioned(ConflictWarning.scala:39)
 [error] 	at sbt.librarymanagement.ConflictWarning$.apply(ConflictWarning.scala:19)
@@ -18,4 +18,4 @@
 [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 [error] 	at java.lang.Thread.run(Thread.java:748)
-[error] (ssExtractDependencies) Conflicting cross-version suffixes in: com.typesafe.akka:akka-actor, com.typesafe.akka:akka-stream, org.scala-lang.modules:scala-java8-compat, org.scala-lang.modules:scala-parser-combinators, com.typesafe:ssl-config-core, com.typesafe.akka:akka-slf4j
+[error] (ssExtractDependencies) Conflicting cross-version suffixes in: com.typesafe.akka:akka-actor, org.scala-lang.modules:scala-java8-compat

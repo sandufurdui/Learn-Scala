@@ -8,7 +8,7 @@ lazy val root = (project in file("."))
   )
 
 
-val AkkaVersion = "2.6.13"
+val AkkaVersion = "2.6.19"
 val AkkaHttpVersion = "10.1.11"
 libraryDependencies ++= Seq(
   "com.lightbend.akka" %% "akka-stream-alpakka-sse" % "2.0.2",
@@ -17,6 +17,7 @@ libraryDependencies ++= Seq(
   "com.lihaoyi" %% "upickle" % "0.9.5",
   "org.mongodb.scala" %% "mongo-scala-driver" % "4.2.2",
   "com.typesafe.akka" %% "akka-actor-typed" % AkkaVersion,
+//  "com.typesafe.akka" % "akka-actor-typed_2.12" % "2.6.8",
   "net.liftweb" %% "lift-json" % "3.4.3",
   "org.json4s" %% "json4s-jackson" % "3.7.0-M11",
   "ch.qos.logback" % "logback-classic" % "1.2.3" % Runtime,
@@ -26,3 +27,5 @@ libraryDependencies ++= Seq(
 "com.google.firebase" % "firebase-server-sdk" % "3.0.3",
 "com.twitter" %% "finagle-http" % "22.4.0"
 )
+//libraryDependencies += "com.typesafe.akka" % "akka-actor-typed_2.12" % "2.6.8",
+//libraryDependencies += "com.typesafe.akka" % "akka-actor-testkit-typed_2.12" % "2.6.8" % Test

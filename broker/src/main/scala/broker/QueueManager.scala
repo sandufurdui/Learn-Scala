@@ -1,11 +1,14 @@
 package broker
 
-import akka.actor.{Actor, ActorSystem, Props}
-import scala.collection.mutable.{ArrayBuffer, ListBuffer}
+import akka.actor.Actor
 
+import scala.collection.mutable.{ArrayBuffer, ListBuffer}
+import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.Future
+import scala.util.{Failure, Random, Success}
 case class qResponse(response: String)
 case class subscribedTopics(y: Array[Int])
-case class getMessagesRequest(idList: ListBuffer[Int], topicList: Seq[String], username: String)
+case class getMessagesRequest(idList: ListBuffer[Int], topicList: ArrayBuffer[String], username: String)
 
 class QueueManager extends Actor {
   def toInt(s: String): Int = { try { s.toInt } catch { case e: Exception => 0 } }
@@ -49,12 +52,14 @@ class QueueManager extends Actor {
       Message.create(topicsToSend).map(message => print(s""))
 
     case subscribeRequest(text, name) =>
+      println(s"array received in subscribe request ${text}")
       for (a <- 1 to count) {
         Message.get(a, "messages/topicList").map(response => {
           if (text.contains(response.topic) && (a <= count)) {
             Message.get(a, "messages/body").map(response1 => {
               val topicsToSend = Message(a, response1.body, response.topic, s"toRecover/${name}")
               Message.create(topicsToSend).map(message => print(s""))
+              println(s"new message ${response.id}")
             })
 
           }
@@ -62,14 +67,26 @@ class QueueManager extends Actor {
       }
 
     case getMessagesRequest(idList, topicList, username) =>
-      for (id <- idList) {
-        Message.get(id, s"toRecover/${username}").map(text => {
-//          if(topicList.contains(text.topic)){
-            println(s"id: ${text.id}")
-            println(s"topic: ${text.topic}")
-//          }
-        })
+      var test = new ArrayBuffer[String]()
+      val f = Future {
+        Thread.sleep(Random.nextInt(500))
+        for (id <- idList) {
+          Message.get(id, s"toRecover/${username}").map(text => {
+            if(topicList.contains(text.topic)){
+              println(s"id: ${text.id}")
+              println(s"topic: ${text.topic}")
+              test.append(text.id.toString)
+            }
+          })
+        }
       }
+
+      f.onComplete {
+//        case Success(value) => sender() ! qResponse(test.toString())
+        case Failure(e) => e.printStackTrace
+        case Success(value) => println(s"finished getting the messages ${test.toString()}")
+      }
+
 
     case getTopicsRequest() =>
       Message.get(0, "messages/topicList").map(text => topicsList = text.body)
