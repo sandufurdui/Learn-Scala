@@ -41,7 +41,7 @@ class TcpClient(remote: InetSocketAddress, var listener: ActorRef) extends Actor
         case Received(data) =>
           val byteArr = data.utf8String
           var firstWord = byteArr.split(" ").head
-//          println(s"server response - ${data.utf8String}")
+         println(s"server response - ${data.utf8String}")
 //          println(s"first word - .${firstWord}.")
           if (firstWord == "{\n") {
 //          val jsObject = Json.parse(byteArr).as[JsObject]

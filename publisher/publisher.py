@@ -24,10 +24,10 @@ print("sending data")
 
 while True:
     data = response.readline()
-    sleep_a_bit = random.randrange(0, 10) / 10
+    sleep_a_bit = random.randrange(0, 10) / 100
     # print(data_json)
 
-    #sleep(sleep_a_bit)
+    sleep(sleep_a_bit)
     data_decoded = data.decode("utf-8")
 
     first_word = re.split("\s", data_decoded)[0]

@@ -12,9 +12,6 @@ case class unsubscribeRequest(y: Seq[String])
 case class getTopicsRequest()
 case class recoverRequest(name: String)
 case class ToClient(response: String)
-//case class Request(query: String, replyTo: ActorRef[Response])
-//case class Response(result: String)
-
 
  class ClientWorker extends Actor {
   import Tcp._
@@ -54,12 +51,12 @@ case class ToClient(response: String)
       if (firstWord == "subscribe") {
         for (i <- responseAsList){
           responseAsBuff.append(i)
+          responseAsBuff.distinct
         }
         if (responseDecoded.length < 10){
           TCPsender ! Write(ByteString(s"SERVER_RES: please enter at least one topic!"))
         } else{
         context.actorSelection("akka://brokerSystem/user/queueManager").tell(subscribeRequest(responseAsBuff, username), sender = context.self)
-
         }
       }
       else if (firstWord == "unsubscribe") {
@@ -86,7 +83,7 @@ case class ToClient(response: String)
       }
       else if (lastWord == "messages" && firstWord == "get") {
          if(subscribedIDs.isEmpty){
-           println("queue empty, please subscribe first then update")
+           println("queue empty, please subscribe first the update")
         }
         for (id <- subscribedIDs) {
           val r = scala.util.Random
@@ -95,7 +92,6 @@ case class ToClient(response: String)
           val testString = s"{\n    \"key\": ${keyGenerator},\n    \"message\": \"${id}\"\n}"
           TCPsender ! Write(ByteString(testString))
           Thread.sleep(1000)
-//          TCPsender ! Write(ByteString(s"SERVER_RES: message id: ${id}"))
         }
         context.actorSelection("akka://brokerSystem/user/queueManager").tell(getMessagesRequest(subscribedIDs, responseAsBuff, username), context.self)
       }
@@ -108,7 +104,7 @@ case class ToClient(response: String)
               subscribedIDs.append(response.id)
             }
             subscribedIDs.distinct
-            println(s"updated list  ${subscribedIDs.toString}")
+            println(s"updated list ${subscribedIDs.toString}")
             if (a == count || a == count-1){
               println("update finished")
             }
@@ -125,7 +121,7 @@ case class ToClient(response: String)
           TCPsender ! Write(ByteString("unknown command"))
         } else {
           username = data.utf8String
-          println(s"succesfully set name to ${username}")
+          println(s"successfully set name to ${username}")
           for (a <- 1 to count){
             Message.get(a, s"toRecover/${username}").map(response => {
 //              println(s"sss  ${response.id}")

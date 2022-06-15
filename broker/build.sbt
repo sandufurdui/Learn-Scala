@@ -8,7 +8,7 @@ lazy val root = (project in file("."))
   )
 
 
-val AkkaVersion = "2.6.19"
+val AkkaVersion = "2.6.18"
 val AkkaHttpVersion = "10.1.11"
 libraryDependencies ++= Seq(
   "com.lightbend.akka" %% "akka-stream-alpakka-sse" % "2.0.2",

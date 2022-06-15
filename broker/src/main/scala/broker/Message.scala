@@ -41,16 +41,6 @@ object Message {
     })
     p
   }
-
-//  def existsOrCreate(message: Message, reff: String): Future[Message] = {
-//    val p = new Promise[Message]
-//    get(message.id, message.reff).map(messageRecord => p.setValue(messageRecord)).rescue {
-//      case e: MessageNotFoundException => {
-//        create(message).map(messageRecord => p.setValue(messageRecord))
-//      }
-//    }
-//    p
-//  }
 }
 
 case class Message(id: Int, body: String, topic: String, reff: String) {

@@ -13,7 +13,6 @@ class PublisherWorker extends Actor {
   val b = new ArrayBuffer[String]()
   println("--------------publisher worker started--------------")
   def receive: Receive = {
-//    case s => print(s"printing from publisher worker ----- ${s}")
 
     case Received(data) =>
       val message = data.utf8String

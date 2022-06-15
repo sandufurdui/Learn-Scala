@@ -49,7 +49,6 @@ class QueueManager extends Actor {
       Message.create(topicsToSend).map(message => print(s""))
 
     case subscribeRequest(text, name) =>
-      println(s"array received in subscribe request ${text}")
       for (a <- 1 to count) {
         Message.get(a, "messages/topicList").map(response => {
           if (text.contains(response.topic) && (a <= count)) {
@@ -64,7 +63,6 @@ class QueueManager extends Actor {
       }
 
     case getMessagesRequest(idList, topicList, username) =>
-
       for (id <- idList) {
         Message.get(id, s"toRecover/${username}").map(text => {
           if (topicList.contains(text.topic)) {
@@ -74,13 +72,9 @@ class QueueManager extends Actor {
         })
       }
 
-
     case getTopicsRequest() =>
       Message.get(0, "messages/topicList").map(text => topicsList = text.body)
       sender ! qResponse(topicsList)
-
-
-
   }
 }
 
