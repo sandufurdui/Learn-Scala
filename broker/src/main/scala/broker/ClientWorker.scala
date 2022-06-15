@@ -11,6 +11,7 @@ case class subscribeRequest(subString: ArrayBuffer[String], username: String)
 case class unsubscribeRequest(y: Seq[String])
 case class getTopicsRequest()
 case class recoverRequest(name: String)
+case class ToClient(response: String)
 //case class Request(query: String, replyTo: ActorRef[Response])
 //case class Response(result: String)
 
@@ -58,13 +59,23 @@ case class recoverRequest(name: String)
           TCPsender ! Write(ByteString(s"SERVER_RES: please enter at least one topic!"))
         } else{
         context.actorSelection("akka://brokerSystem/user/queueManager").tell(subscribeRequest(responseAsBuff, username), sender = context.self)
+
         }
       }
       else if (firstWord == "unsubscribe") {
         if (responseAsBuff.contains(lastWord)){
           responseAsBuff --= Set(lastWord)
           println(s"unsubscribed from ${lastWord}")
-          TCPsender ! Write(ByteString(s"SERVER_RES: unsubscribed"))
+          TCPsender ! Write(ByteString(s"SERVER_RES: unsubscribed from ${lastWord}"))
+          for (id <- subscribedIDs){
+            Message.get(id, s"toRecover/${username}").map(response => {
+              if (response.topic == lastWord){
+                val topicsToSend = Message(id, null, null, s"toRecover/${username}")
+                Message.create(topicsToSend).map(message => print(s""))
+                subscribedIDs --= Set(id)
+              }
+            })
+          }
         }else {
           TCPsender ! Write(ByteString(s"SERVER_RES: No such topic"))
           println(s"no such topic")
@@ -77,15 +88,23 @@ case class recoverRequest(name: String)
          if(subscribedIDs.isEmpty){
            println("queue empty, please subscribe first then update")
         }
-        println(s"ids: ${subscribedIDs}")
-        println(s"topic List: ${responseAsBuff}")
+        for (id <- subscribedIDs) {
+          val r = scala.util.Random
+          val keyGenerator = r.nextInt(100)
+          globalAckKey = keyGenerator
+          val testString = s"{\n    \"key\": ${keyGenerator},\n    \"message\": \"${id}\"\n}"
+          TCPsender ! Write(ByteString(testString))
+          Thread.sleep(1000)
+//          TCPsender ! Write(ByteString(s"SERVER_RES: message id: ${id}"))
+        }
         context.actorSelection("akka://brokerSystem/user/queueManager").tell(getMessagesRequest(subscribedIDs, responseAsBuff, username), context.self)
       }
       else if (firstWord == "update") {
         for (a <- 1 to count){
           Message.get(a, s"toRecover/${username}").map(response => {
 //            println(s"sss  ${response.id}")
-            if (!subscribedIDs.contains(response.id)){
+
+            if (!subscribedIDs.contains(response.id) && response.topic.nonEmpty){
               subscribedIDs.append(response.id)
             }
             subscribedIDs.distinct

@@ -1,11 +1,8 @@
 package broker
 
-import akka.actor.Actor
-
+import akka.actor.{Actor, ActorSystem, Props}
 import scala.collection.mutable.{ArrayBuffer, ListBuffer}
-import scala.concurrent.ExecutionContext.Implicits.global
-import scala.concurrent.Future
-import scala.util.{Failure, Random, Success}
+import scala.concurrent.{Future, Promise}
 case class qResponse(response: String)
 case class subscribedTopics(y: Array[Int])
 case class getMessagesRequest(idList: ListBuffer[Int], topicList: ArrayBuffer[String], username: String)
@@ -67,24 +64,14 @@ class QueueManager extends Actor {
       }
 
     case getMessagesRequest(idList, topicList, username) =>
-      var test = new ArrayBuffer[String]()
-      val f = Future {
-        Thread.sleep(Random.nextInt(500))
-        for (id <- idList) {
-          Message.get(id, s"toRecover/${username}").map(text => {
-            if(topicList.contains(text.topic)){
-              println(s"id: ${text.id}")
-              println(s"topic: ${text.topic}")
-              test.append(text.id.toString)
-            }
-          })
-        }
-      }
 
-      f.onComplete {
-//        case Success(value) => sender() ! qResponse(test.toString())
-        case Failure(e) => e.printStackTrace
-        case Success(value) => println(s"finished getting the messages ${test.toString()}")
+      for (id <- idList) {
+        Message.get(id, s"toRecover/${username}").map(text => {
+          if (topicList.contains(text.topic)) {
+            println(s"id: ${id}")
+            println(s"topic: ${text.topic}")
+          }
+        })
       }
 
 
@@ -92,8 +79,7 @@ class QueueManager extends Actor {
       Message.get(0, "messages/topicList").map(text => topicsList = text.body)
       sender ! qResponse(topicsList)
 
-    case recoverRequest(name) =>
-      println(name)
+
 
   }
 }
