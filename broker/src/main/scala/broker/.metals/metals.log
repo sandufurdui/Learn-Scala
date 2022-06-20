@@ -1,0 +1,165 @@
+2022.06.20 20:48:08 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\.metals\lsp.trace.json or C:\Users\sandu\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.20 20:48:11 INFO  logging to file D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\.metals\metals.log
+2022.06.20 20:48:11 INFO  Started: Metals version 0.11.6 in workspace 'D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker' for client Visual Studio Code 1.68.1.
+2022.06.20 20:48:15 INFO  time: initialize in 3.21s
+2022.06.20 20:48:27 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.20 20:48:27 WARN  Build server is not auto-connectable.
+2022.06.20 20:48:27 WARN  no build tool detected in workspace 'D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.06.20 20:48:34 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 20:48:42 INFO  no build target found for D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala. Using presentation compiler with project's scala-library version: 3.1.2
+iun. 20, 2022 8:48:43 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+iun. 20, 2022 8:48:43 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+2022.06.20 20:48:48 INFO  time: code lens generation in 11s
+2022.06.20 20:48:48 INFO  time: code lens generation in 12s
+2022.06.20 22:03:13 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:03:16 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:03:25 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:03:30 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:03:54 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:03:56 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:04:00 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:04:03 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:04:10 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:04:13 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:04:16 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:04:21 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:04:41 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:28:42 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:35:37 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:35:45 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:35:50 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:35:56 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:36:02 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:36:16 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:36:20 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:36:22 INFO  time: code lens generation in 2.09s
+2022.06.20 22:36:22 INFO  time: code lens generation in 1.19s
+2022.06.20 22:36:22 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:36:25 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:36:27 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:36:29 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:36:35 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:36:40 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:36:41 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:36:47 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:37:39 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:37:41 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:39:19 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:39:25 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:43:50 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientAutoscaler.scala
+2022.06.20 22:43:58 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientAutoscaler.scala
+2022.06.20 22:44:01 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientAutoscaler.scala
+2022.06.20 22:45:51 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientAutoscaler.scala
+2022.06.20 22:45:54 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientAutoscaler.scala
+2022.06.20 22:53:03 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+iun. 20, 2022 10:53:38 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 499
+2022.06.20 22:53:39 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+iun. 20, 2022 10:53:39 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 500
+iun. 20, 2022 10:53:39 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 502
+2022.06.20 22:53:39 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:53:40 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:53:42 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:53:43 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:53:49 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:53:54 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:53:58 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+iun. 20, 2022 10:54:42 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 619
+2022.06.20 22:54:46 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:54:52 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:54:57 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:55:04 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:56:50 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:56:55 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+iun. 20, 2022 10:56:59 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 699
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.06.20 22:57:42 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:57:42 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:57:44 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:57:45 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:57:50 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:57:53 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:57:55 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:58:02 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:58:06 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:58:16 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:58:18 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:58:24 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 22:58:47 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:01:36 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\QueueManager.scala
+2022.06.20 23:01:51 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:01:57 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:02:01 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:02:03 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:03:37 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:10:58 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:10:59 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:11:00 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:11:08 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:14:06 INFO  time: code lens generation in 1.47s
+2022.06.20 23:14:19 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:14:24 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:15:49 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:15:55 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:16:00 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:16:07 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:16:09 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:16:41 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:16:49 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:16:51 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:16:59 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:17:01 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:17:05 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:17:07 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:17:11 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:17:13 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:17:15 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:17:16 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:17:17 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:17:19 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:17:22 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:17:27 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:17:44 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:17:49 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:17:53 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:17:56 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:18:05 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.20 23:18:10 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.21 00:27:36 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.21 00:35:30 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\PublisherWorker.scala
+2022.06.21 00:35:35 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\PublisherWorker.scala
+2022.06.21 00:35:45 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.21 00:35:59 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\PublisherWorker.scala
+2022.06.21 00:35:59 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\PublisherWorker.scala
+2022.06.21 00:36:00 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\PublisherWorker.scala
+2022.06.21 00:36:05 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.21 00:36:25 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.21 00:36:25 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.21 00:37:42 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.21 00:41:04 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.21 00:41:09 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.21 00:41:16 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.21 00:41:19 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.21 00:41:21 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.21 00:41:51 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.21 00:42:05 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.21 00:42:08 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.21 00:49:27 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\QueueManager.scala
+iun. 21, 2022 12:49:28 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1572
+2022.06.21 00:51:03 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.21 00:51:07 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.21 00:51:09 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala
+2022.06.21 00:51:15 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\broker\src\main\scala\broker\ClientWorker.scala

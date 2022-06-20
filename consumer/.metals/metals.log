@@ -1,0 +1,1431 @@
+2022.06.20 20:47:12 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Users\sandu\Desktop\Github\Learn-Scala\consumer\.metals\lsp.trace.json or C:\Users\sandu\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.20 20:47:15 INFO  logging to file D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\.metals\metals.log
+2022.06.20 20:47:15 INFO  Started: Metals version 0.11.6 in workspace 'D:\Users\sandu\Desktop\Github\Learn-Scala\consumer' for client Visual Studio Code 1.68.1.
+2022.06.20 20:47:17 INFO  time: initialize in 2.4s
+2022.06.20 20:47:28 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.20 20:47:29 WARN  Build server is not auto-connectable.
+2022.06.20 20:47:33 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:47:42 INFO  no build target found for D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.20 20:47:50 INFO  time: code lens generation in 16s
+2022.06.20 20:47:50 INFO  time: code lens generation in 10s
+2022.06.20 20:48:31 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:48:55 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:49:03 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:49:29 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:49:32 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:49:35 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:50:31 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:50:34 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:50:39 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:50:44 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:50:49 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:50:57 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:50:58 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:51:00 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:51:01 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:51:03 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:51:09 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:51:14 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:51:19 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:51:23 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:51:24 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:51:26 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:51:28 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+iun. 20, 2022 8:52:35 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 242
+2022.06.20 20:52:36 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:52:39 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:52:41 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:52:49 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:52:50 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:52:52 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:52:55 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:52:56 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:53:04 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:53:06 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:53:09 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:53:15 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:53:16 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:53:17 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:53:20 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:54:17 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:54:18 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:54:18 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:54:49 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:54:52 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:55:40 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:55:41 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:56:01 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:56:03 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:56:05 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:56:07 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:56:09 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:56:12 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:56:17 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:56:20 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:56:29 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:56:31 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:56:33 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:56:35 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:56:39 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+iun. 20, 2022 8:56:40 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:46: error: malformed xml literal, expected:
+Expected ("{{" | "}}" | "&" | "&#" | "&#x" | "{" | "<xml:unparsed" | "<![CDATA[" | "<?" | "<!--" | "<" | "</"):40:3, found "}\r\n}"
+  }
+  ^
+java.util.concurrent.CompletionException: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:46: error: malformed xml literal, expected:
+Expected ("{{" | "}}" | "&" | "&#" | "&#x" | "{" | "<xml:unparsed" | "<![CDATA[" | "<?" | "<!--" | "<" | "</"):40:3, found "}\r\n}"
+  }
+  ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:46: error: malformed xml literal, expected:
+Expected ("{{" | "}}" | "&" | "&#" | "&#x" | "{" | "<xml:unparsed" | "<![CDATA[" | "<?" | "<!--" | "<" | "</"):40:3, found "}\r\n}"
+  }
+  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getXml(LegacyScanner.scala:972)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchLT$1(LegacyScanner.scala:329)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:337)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1477)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+iun. 20, 2022 8:56:41 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:46: error: malformed xml literal, expected:
+Expected ("{{" | "}}" | "&" | "&#" | "&#x" | "{" | "<xml:unparsed" | "<![CDATA[" | "<?" | "<!--" | "<" | "</"):40:3, found "}\r\n}"
+  }
+  ^
+java.util.concurrent.CompletionException: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:46: error: malformed xml literal, expected:
+Expected ("{{" | "}}" | "&" | "&#" | "&#x" | "{" | "<xml:unparsed" | "<![CDATA[" | "<?" | "<!--" | "<" | "</"):40:3, found "}\r\n}"
+  }
+  ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:46: error: malformed xml literal, expected:
+Expected ("{{" | "}}" | "&" | "&#" | "&#x" | "{" | "<xml:unparsed" | "<![CDATA[" | "<?" | "<!--" | "<" | "</"):40:3, found "}\r\n}"
+  }
+  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getXml(LegacyScanner.scala:972)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchLT$1(LegacyScanner.scala:329)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:337)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1477)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.06.20 20:56:43 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+iun. 20, 2022 8:56:44 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:14: error: unclosed string literal
+    println("-----using mode(post/get). to change the mode use command \"mode <post>"")
+                                                                                     ^
+java.util.concurrent.CompletionException: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:14: error: unclosed string literal
+    println("-----using mode(post/get). to change the mode use command \"mode <post>"")
+                                                                                     ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:14: error: unclosed string literal
+    println("-----using mode(post/get). to change the mode use command \"mode <post>"")
+                                                                                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:590)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:406)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:410)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1477)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.06.20 20:56:47 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:56:50 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:56:53 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:56:55 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:56:59 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:57:01 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+iun. 20, 2022 8:57:01 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:14: error: unclosed string literal
+    println("-----using mode(post/get). to change the mode use command \"mode <post>\" or \"mode <get>".")
+                                                                                                        ^
+java.util.concurrent.CompletionException: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:14: error: unclosed string literal
+    println("-----using mode(post/get). to change the mode use command \"mode <post>\" or \"mode <get>".")
+                                                                                                        ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:14: error: unclosed string literal
+    println("-----using mode(post/get). to change the mode use command \"mode <post>\" or \"mode <get>".")
+                                                                                                        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:590)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:406)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:410)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1477)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.06.20 20:57:04 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:57:13 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-3-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.06.20 20:57:26 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:57:27 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:57:31 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:57:37 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:57:42 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:57:49 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:57:51 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:57:54 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:58:02 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:58:25 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:58:31 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:58:50 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:58:52 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:58:56 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:59:07 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:59:10 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+iun. 20, 2022 8:59:55 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 949
+2022.06.20 20:59:55 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:00:27 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:00:32 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:00:35 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:00:36 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:00:40 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:00:55 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:00:58 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:01:04 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:01:07 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:01:19 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:01:21 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:01:27 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:01:28 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:01:32 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:01:36 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:01:49 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:01:50 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:01:55 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:01:57 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:02:00 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:02:03 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:02:10 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:02:15 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:02:18 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:03:00 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:03:02 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:04:19 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:04:22 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:04:26 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:04:29 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:04:33 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:04:36 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:04:37 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:04:39 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:04:40 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:04:42 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:04:46 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:04:47 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:04:54 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:04:57 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:05:04 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:05:17 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:05:20 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:09:13 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:09:16 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:09:41 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:10:02 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:10:06 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:10:09 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:10:27 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:10:28 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:10:41 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:10:44 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:10:48 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:10:49 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:10:54 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:10:57 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:10:58 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:11:00 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:11:05 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:11:09 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:11:10 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:11:19 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:11:22 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:11:28 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:11:32 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:11:35 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:11:39 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:11:42 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:11:48 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:11:56 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:18:17 INFO  time: code lens generation in 1.51s
+2022.06.20 21:18:24 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:18:34 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:18:37 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:18:39 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:18:43 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:18:47 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:18:50 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:18:51 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:18:52 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:18:54 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:18:57 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:19:22 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:19:26 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:19:38 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:19:43 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:20:12 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:20:20 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:21:08 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:21:09 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:21:12 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:21:15 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:22:05 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:22:06 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:22:08 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:24:02 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:24:42 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:25:41 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:25:44 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:25:45 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:25:47 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:25:48 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:25:53 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:25:55 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:25:56 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:26:00 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:26:03 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:26:05 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:26:09 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:26:10 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:26:12 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:26:14 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:26:15 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 21:26:19 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:02:43 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\TCPClient.scala
+2022.06.20 22:28:32 INFO  time: code lens generation in 1.62s
+iun. 20, 2022 10:28:32 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2181
+iun. 20, 2022 10:28:34 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2184
+iun. 20, 2022 10:30:58 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2190
+2022.06.20 22:31:06 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:31:10 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:31:18 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:31:20 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:32:55 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:32:56 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:32:59 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:40:00 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:40:03 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:40:07 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:40:10 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:40:21 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:40:38 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:40:43 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:41:01 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:41:15 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:41:25 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:41:30 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:41:34 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:41:39 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:41:41 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:43:11 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:43:13 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:43:16 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:44:10 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:44:13 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:44:22 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:44:25 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:44:55 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:45:01 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:45:07 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:45:09 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:45:11 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:45:15 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:45:16 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:45:18 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:45:19 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:45:21 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:45:26 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:45:28 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:45:29 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:45:37 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:45:42 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:47:00 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:47:10 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:47:15 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:47:17 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:47:27 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:47:29 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:47:32 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:47:35 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:47:37 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:47:40 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:48:54 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:51:16 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 22:51:20 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:08:37 INFO  time: code lens generation in 1.94s
+iun. 20, 2022 11:08:46 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2868
+iun. 20, 2022 11:18:36 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2873
+2022.06.20 23:18:51 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:18:54 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:19:00 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:19:04 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:19:05 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:19:10 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:19:21 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:19:25 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:19:29 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:19:35 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:19:37 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:19:48 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:19:49 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:19:49 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:19:49 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:19:50 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:19:55 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:20:16 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:20:28 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:20:31 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:20:37 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:20:42 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:20:44 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:20:47 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:26:57 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:27:00 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:27:02 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:27:04 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:27:15 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:57:35 INFO  time: code lens generation in 1.67s
+2022.06.20 23:57:47 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:57:52 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:58:06 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:58:09 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:58:13 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:58:16 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:58:16 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:58:23 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 23:58:58 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+iun. 20, 2022 11:58:58 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3341
+iun. 20, 2022 11:58:58 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3336
+iun. 20, 2022 11:58:58 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3337
+iun. 20, 2022 11:58:58 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3344
+iun. 20, 2022 11:58:58 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3348
+iun. 20, 2022 11:58:58 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3347
+iun. 20, 2022 11:58:58 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3358
+2022.06.20 23:58:58 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+iun. 20, 2022 11:58:58 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3359
+iun. 20, 2022 11:58:58 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3361
+iun. 20, 2022 11:58:58 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3364
+iun. 20, 2022 11:58:58 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3363
+iun. 20, 2022 11:58:58 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3372
+iun. 20, 2022 11:58:58 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3365
+iun. 20, 2022 11:58:58 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3377
+iun. 20, 2022 11:58:58 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3380
+iun. 20, 2022 11:58:58 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3383
+2022.06.20 23:58:58 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+iun. 20, 2022 11:58:58 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3367
+2022.06.21 00:00:24 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:00:28 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:00:30 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:00:32 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:00:33 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:00:35 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:00:37 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:00:39 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:00:45 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:00:49 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:00:52 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:00:54 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:02:01 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:02:03 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:02:05 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:02:11 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:02:14 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:02:18 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:02:22 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:03:22 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:03:26 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:03:29 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:03:38 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:03:44 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:03:52 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:03:55 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:04:00 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:04:03 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:04:07 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:04:09 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:04:11 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:06:07 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:06:11 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:06:12 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:06:15 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:06:23 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:06:26 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:06:28 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:06:31 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:06:34 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:06:54 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:06:56 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:07:03 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:07:05 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:07:07 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:07:10 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:07:25 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:07:28 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:07:29 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:07:31 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:07:44 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+iun. 21, 2022 12:07:49 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+java.util.concurrent.CompletionException: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:696)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:391)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:410)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1477)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+iun. 21, 2022 12:07:50 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:696)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:391)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:410)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definitionOrReferences$1(MetalsLanguageServer.scala:2473)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsLanguageServer.definitionOrReferences(MetalsLanguageServer.scala:2469)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definition$1(MetalsLanguageServer.scala:1432)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.definition(MetalsLanguageServer.scala:1431)
+	... 15 more
+
+iun. 21, 2022 12:07:50 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:696)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:391)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:410)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definitionOrReferences$1(MetalsLanguageServer.scala:2473)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsLanguageServer.definitionOrReferences(MetalsLanguageServer.scala:2469)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definition$1(MetalsLanguageServer.scala:1432)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.definition(MetalsLanguageServer.scala:1431)
+	... 15 more
+
+iun. 21, 2022 12:07:50 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:696)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:391)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:410)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definitionOrReferences$1(MetalsLanguageServer.scala:2473)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsLanguageServer.definitionOrReferences(MetalsLanguageServer.scala:2469)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definition$1(MetalsLanguageServer.scala:1432)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.definition(MetalsLanguageServer.scala:1431)
+	... 15 more
+
+iun. 21, 2022 12:07:50 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:696)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:391)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:410)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definitionOrReferences$1(MetalsLanguageServer.scala:2473)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsLanguageServer.definitionOrReferences(MetalsLanguageServer.scala:2469)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definition$1(MetalsLanguageServer.scala:1432)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.definition(MetalsLanguageServer.scala:1431)
+	... 15 more
+
+iun. 21, 2022 12:07:50 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:696)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:391)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:410)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definitionOrReferences$1(MetalsLanguageServer.scala:2473)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsLanguageServer.definitionOrReferences(MetalsLanguageServer.scala:2469)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definition$1(MetalsLanguageServer.scala:1432)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.definition(MetalsLanguageServer.scala:1431)
+	... 15 more
+
+iun. 21, 2022 12:07:50 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:696)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:391)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:410)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definitionOrReferences$1(MetalsLanguageServer.scala:2473)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsLanguageServer.definitionOrReferences(MetalsLanguageServer.scala:2469)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definition$1(MetalsLanguageServer.scala:1432)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.definition(MetalsLanguageServer.scala:1431)
+	... 15 more
+
+iun. 21, 2022 12:07:50 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:696)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:391)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:410)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definitionOrReferences$1(MetalsLanguageServer.scala:2473)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsLanguageServer.definitionOrReferences(MetalsLanguageServer.scala:2469)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definition$1(MetalsLanguageServer.scala:1432)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.definition(MetalsLanguageServer.scala:1431)
+	... 15 more
+
+2022.06.21 00:07:55 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:07:57 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:08:04 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:08:06 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:08:07 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:08:09 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+iun. 21, 2022 12:08:09 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+java.util.concurrent.CompletionException: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:696)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:391)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:410)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1477)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.06.21 00:08:11 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+iun. 21, 2022 12:08:14 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+java.util.concurrent.CompletionException: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:696)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:391)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:410)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1477)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.06.21 00:08:14 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+iun. 21, 2022 12:08:17 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+java.util.concurrent.CompletionException: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:696)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:391)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:410)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1477)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+iun. 21, 2022 12:08:17 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+java.util.concurrent.CompletionException: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:696)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:391)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:410)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1477)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.06.21 00:08:20 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+iun. 21, 2022 12:08:20 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+java.util.concurrent.CompletionException: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:696)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:391)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:410)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1477)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.06.21 00:08:21 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+iun. 21, 2022 12:08:21 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+java.util.concurrent.CompletionException: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: file:///D:/Users/sandu/Desktop/Github/Learn-Scala/consumer/src/main/scala/cons/Main.scala:50: error: unclosed string interpolation
+            var temp = s"\n{
+                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:696)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:391)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:410)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1477)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.06.21 00:08:24 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:08:25 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:09:09 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.21 00:15:48 INFO  time: code lens generation in 2.48s
+2022.06.21 00:37:27 INFO  shutting down Metals
+2022.06.21 00:37:28 ERROR Unexpected error initializing server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+

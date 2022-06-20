@@ -3,7 +3,7 @@ package broker
 import akka.actor.{Actor, ActorRef}
 import akka.io.Tcp
 import akka.util.ByteString
-
+import play.api.libs.json.{JsNull, JsValue, Json, JsObject}
 import scala.collection.mutable.{ArrayBuffer, ListBuffer}
 import scala.language.postfixOps
 
@@ -28,6 +28,7 @@ case class ToClient(response: String)
    var globalAckKey = 0
    var firstWord = ""
    var lastWord = ""
+   val idList = new ArrayBuffer[Int]()
    val responseAsBuff = new ArrayBuffer[String]
    var responseAsList: List[String] = List[String]()
   println(s"------------client worker started ${context.self}------------")
@@ -36,18 +37,33 @@ case class ToClient(response: String)
     case qResponse(str) =>
       println(s"(client worker) queueManager response ${str}")
       val r = scala.util.Random
-      val keyGenerator = r.nextInt(100)
+      val keyGenerator = r.nextInt(1000)
       globalAckKey = keyGenerator
       val testString = s"{\n    \"key\": ${keyGenerator},\n    \"message\": \"${str}\"\n}"
+      idList.append(keyGenerator)
         TCPsender ! Write(ByteString(testString))
 
     case Received(data) => {
+      val dataDecoded = data.utf8String
+      val json: JsValue = Json.parse(dataDecoded)
+      val command = (json \ "command").getOrElse(JsNull).toString().replaceAll("\"", "")
+      val mode = (json \ "mode").getOrElse(JsNull).toString().replaceAll("\"", "")
+      val message = (json \ "postMessage").getOrElse(JsNull).toString()
+      // println(s"commmand from client: ${command}")
+      if (username.isEmpty){
+         username = (json \ "username").getOrElse(JsNull).toString().replaceAll("\"", "")
+      }
+
+      // println(s"username from client: ${username}")
       TCPsender = sender()
-      val responseDecoded = data.utf8String
+
+      if (mode == "get" ){
+      println("user in get mode")
+      val responseDecoded = command.replaceAll("\"", "")
       responseAsList= responseDecoded.split(" ").map(_.trim).toList
 
       firstWord = responseAsList.head
-        lastWord = responseAsList.last
+      lastWord = responseAsList.last
       if (firstWord == "subscribe") {
         for (i <- responseAsList){
           responseAsBuff.append(i)
@@ -87,19 +103,18 @@ case class ToClient(response: String)
         }
         for (id <- subscribedIDs) {
           val r = scala.util.Random
-          val keyGenerator = r.nextInt(100)
+          val keyGenerator = r.nextInt(1000)
           globalAckKey = keyGenerator
           val testString = s"{\n    \"key\": ${keyGenerator},\n    \"message\": \"${id}\"\n}"
           TCPsender ! Write(ByteString(testString))
           Thread.sleep(1000)
+          idList.append(keyGenerator)
         }
         context.actorSelection("akka://brokerSystem/user/queueManager").tell(getMessagesRequest(subscribedIDs, responseAsBuff, username), context.self)
       }
       else if (firstWord == "update") {
         for (a <- 1 to count){
           Message.get(a, s"toRecover/${username}").map(response => {
-//            println(s"sss  ${response.id}")
-
             if (!subscribedIDs.contains(response.id) && response.topic.nonEmpty){
               subscribedIDs.append(response.id)
             }
@@ -111,20 +126,20 @@ case class ToClient(response: String)
           })
         }
       }
-      else if (responseDecoded.forall(Character.isDigit)) {
-        if (responseDecoded.toInt == globalAckKey) {
-          println(s"message with key ${globalAckKey} successfully received by client")
+      else if (data.utf8String.forall(Character.isDigit)) {
+        if (idList.contains(data.utf8String.toInt)) {
+          println(s"client received message with id: ${data.utf8String.toInt}")
+          idList --= Seq(data.utf8String.toInt)
         }
       }
       else{
         if (username.nonEmpty){
           TCPsender ! Write(ByteString("unknown command"))
         } else {
-          username = data.utf8String
-          println(s"successfully set name to ${username}")
+          // username = data.utf8String
+         
           for (a <- 1 to count){
             Message.get(a, s"toRecover/${username}").map(response => {
-//              println(s"sss  ${response.id}")
               subscribedIDs.append(response.id)
               subscribedIDs.distinct
               println(s"updated list  ${subscribedIDs.toString}")
@@ -133,6 +148,15 @@ case class ToClient(response: String)
         }
 
       }
+    } else if (mode == "post" && message.nonEmpty){
+      println("user in post mode")
+      val json: JsValue = Json.parse(message)
+        def topic: String = {
+          (json \ "message" \ "tweet" \ "user" \ "time_zone").getOrElse(JsNull).toString()
+        }
+        context.actorSelection("akka://brokerSystem/user/queueManager").tell(sendTopic(topic), sender = context.self)
+        context.actorSelection("akka://brokerSystem/user/queueManager").tell(sendBody(message), sender = context.self)
+    }
       println(s"Data received - ${data.utf8String}")
     }
 

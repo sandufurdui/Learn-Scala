@@ -7,30 +7,38 @@
     <list default="true" id="f8ead810-d56a-41f0-bd68-0e8d5622ef75" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../broker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../broker/src/main/scala/broker/ClientWorker.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/src/main/scala/broker/ClientWorker.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../broker/src/main/scala/broker/QueueManager.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/src/main/scala/broker/QueueManager.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../broker/target/.history3" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/.history3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/broker_2.13-0.1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/scala-2.13/broker_2.13-0.1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/ClientAutoscaler$$anonfun$receive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/ClientAutoscaler$$anonfun$receive$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/ClientWorker$$anonfun$receive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/ClientWorker$$anonfun$receive$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/ClientWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/ClientWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/Firebase$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/Firebase$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/Main$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/Message2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/Message2$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/Message2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/Message2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/MessageBean2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/MessageNotFoundException2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/MessageNotFoundException2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/PublisherAutoscaler$$anonfun$receive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/PublisherAutoscaler$$anonfun$receive$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/PublisherAutoscaler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/PublisherAutoscaler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/PublisherWorker$$anonfun$receive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/PublisherWorker$$anonfun$receive$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/QueueManager$$anonfun$receive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/QueueManager$$anonfun$receive$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/subscribeRequest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/subscribeRequest$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/subscribeRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/scala-2.13/classes/broker/subscribeRequest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../broker/target/scala-2.13/zinc/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/scala-2.13/zinc/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../broker/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../broker/target/streams/compile/compile/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/streams/compile/compile/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../broker/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../broker/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../broker/target/streams/compile/packageBin/_global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/streams/compile/packageBin/_global/streams/inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../broker/target/streams/compile/packageBin/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../broker/target/streams/compile/packageBin/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/cons/TCPClient.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/cons/TCPClient.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.history3" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/cons/TcpClient$$anonfun$receive$1$$anonfun$applyOrElse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/cons/TcpClient$$anonfun$receive$1$$anonfun$applyOrElse$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/cons/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/cons/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/cons/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/cons/Main$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/consumer_2.13-0.1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/consumer_2.13-0.1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/zinc/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/zinc/inc_compile_2.13.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +89,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../broker" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

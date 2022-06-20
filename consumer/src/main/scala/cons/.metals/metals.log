@@ -1,0 +1,32 @@
+2022.06.20 20:41:56 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\.metals\lsp.trace.json or C:\Users\sandu\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.20 20:41:59 INFO  logging to file D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\.metals\metals.log
+2022.06.20 20:42:00 INFO  Started: Metals version 0.11.6 in workspace 'D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons' for client Visual Studio Code 1.68.1.
+2022.06.20 20:42:11 INFO  time: initialize in 12s
+2022.06.20 20:42:11 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.20 20:42:11 WARN  Build server is not auto-connectable.
+2022.06.20 20:42:11 WARN  no build tool detected in workspace 'D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.06.20 20:42:16 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:42:33 INFO  no build target found for D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.20 20:42:38 INFO  time: code lens generation in 20s
+2022.06.20 20:42:38 INFO  time: code lens generation in 1.16s
+2022.06.20 20:42:38 INFO  time: code lens generation in 2.22s
+2022.06.20 20:42:38 INFO  time: code lens generation in 1.79s
+2022.06.20 20:42:38 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:42:42 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:42:53 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+iun. 20, 2022 8:43:55 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 36
+2022.06.20 20:43:57 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:44:01 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:44:05 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:44:07 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:44:10 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:44:12 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:44:15 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:44:21 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:44:27 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:44:33 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:44:35 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:44:44 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:45:15 WARN  no build target for: D:\Users\sandu\Desktop\Github\Learn-Scala\consumer\src\main\scala\cons\Main.scala
+2022.06.20 20:45:50 INFO  shutting down Metals
